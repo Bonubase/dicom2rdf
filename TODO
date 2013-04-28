@@ -1,0 +1,3 @@
+-Complete SOP Class UID -> IOD dictionary in sopclasses.py
+-Add triples about relations between IEs
+-SOP common module contains timezone offset for VR DA,TM,DT

@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.26">
+    <rdfs:label>dicomInstitutionName</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.3">
+    <rdfs:label>VL Slide-Coordinates Microscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.1.2">
+    <rdfs:label>Patient Root Query/Retrieve Information Model - MOVE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.15">
+    <rdfs:label>Basic Annotation Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.32.1">
+    <rdfs:label>General Purpose Worklist Information Model - FIND</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.38.3">
+    <rdfs:label>Hanging Protocol Information Model - MOVE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.2">
+    <rdfs:label>Audio SR Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.12.3">
+    <rdfs:label>X-Ray Angiographic Bi-Plane Image Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.22">
+    <rdfs:label>Enhanced SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.54">
+    <rdfs:label>JPEG Spectral Selection, Non-Hierarchical (Process 7 and 9)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.12.2.1">
+    <rdfs:label>Enhanced XRF Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.2">
+    <rdfs:label>VL Multi-frame Image Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.129">
+    <rdfs:label>Standalone PET Curve Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.62">
+    <rdfs:label>JPEG Spectral Selection, Hierarchical (Process 21 and 23)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.60">
+    <rdfs:label>JPEG Extended, Hierarchical (Process 17 and 19)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.3">
+    <rdfs:label>RT Ion Machine Verification (Supplement 74 Frozen Draft)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.3">
+    <rdfs:label>dicomManufacturer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.7">
+    <rdfs:label>dicomAETitle</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.1.1">
+    <rdfs:label>Digital X-Ray Image Storage - For Processing</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.4">
+    <rdfs:label>Comprehensive SR Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.16">
+    <rdfs:label>SPM2 AVG152T2 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.57">
+    <rdfs:label>JPEG Lossless, Non-Hierarchical (Process 14)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.14">
+    <rdfs:label>Print Job SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.3.10">
+    <rdfs:label>Media Storage Directory Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.11">
+    <rdfs:label>Basic Text SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.3.1">
+    <rdfs:label>Ultrasound Multi-frame Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.6">
+    <rdfs:label>dicomNetworkConnection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.61">
+    <rdfs:label>JPEG Spectral Selection, Hierarchical (Process 20 and 22)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.50">
+    <rdfs:label>Mammography CAD SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.11">
+    <rdfs:label>dicomAssociationAcceptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.1">
+    <rdfs:label>Verification SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.100">
+    <rdfs:label>MPEG2 Main Profile @ Main Level</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.7">
+    <rdfs:label>Secondary Capture Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.66">
+    <rdfs:label>JPEG Lossless, Hierarchical (Process 29)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2">
+    <rdfs:label>Implicit VR Little Endian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.22">
+    <rdfs:label>dicomThisNodeCertificateReference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.64">
+    <rdfs:label>JPEG Full Progression, Hierarchical (Process 25 and 27)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.18">
+    <rdfs:label>dicomRelatedDeviceReference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.4.3">
+    <rdfs:label>Unified Procedure Step - Pull SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.1.1">
+    <rdfs:label>12-lead ECG Waveform Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.31">
+    <rdfs:label>Modality Worklist Information Model - FIND</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.4.2">
+    <rdfs:label>Unified Procedure Step - Watch SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.11.2">
+    <rdfs:label>Color Softcopy Presentation State Storage SOP Class</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.4.1">
+    <rdfs:label>Video Photographic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.11">
+    <rdfs:label>SPM2 WHITE Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.80">
+    <rdfs:label>JPEG-LS Lossless Image Compression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.38.2">
+    <rdfs:label>Hanging Protocol Information Model - FIND</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.5.4">
+    <rdfs:label>Ophthalmic Tomography Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.4.2">
+    <rdfs:label>Storage Service Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.4">
+    <rdfs:label>dicomDevice</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.104.2">
+    <rdfs:label>Encapsulated CDA Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.6.1">
+    <rdfs:label>Respiratory Waveform Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.66">
+    <rdfs:label>Raw Data Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.4">
+    <rdfs:label>MR Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.3.3">
+    <rdfs:label>Patient/Study Only Query/Retrieve Information Model  - GET</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.4.2">
+    <rdfs:label>Referenced Image Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.5">
+    <rdfs:label>Unified Worklist and Procedure Step SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.4">
+    <rdfs:label>Basic Grayscale Image Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.66.2">
+    <rdfs:label>Spatial Fiducials Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.66.1">
+    <rdfs:label>Spatial Registration Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.40">
+    <rdfs:label>Procedural Event Logging SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.130">
+    <rdfs:label>Enhanced PET Image Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.11.1">
+    <rdfs:label>Grayscale Softcopy Presentation State Storage SOP Class</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.5.3">
+    <rdfs:label>Stereometric Relationship Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.3.2">
+    <rdfs:label>Study Component Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.4.2">
+    <rdfs:label>MR Spectroscopy Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.17">
+    <rdfs:label>dicomPrimaryDeviceType</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.3">
+    <rdfs:label>Detail SR Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.5.1">
+    <rdfs:label>Detached Results Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.16">
+    <rdfs:label>dicomTransferSyntax</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.2">
+    <rdfs:label>Digital Mammography X-Ray Image Storage - For Presentation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.1">
+    <rdfs:label>RT Beams Delivery Instruction Storage (Supplement 74 Frozen Draft)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.3">
+    <rdfs:label>Digital Intra-oral X-Ray Image Storage - For Presentation</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.6">
+    <rdfs:label>Ultrasound Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.59">
+    <rdfs:label>JPEG Extended, Hierarchical (Process 16 and 18)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.40.1">
+    <rdfs:label>Procedural Event Logging SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.95">
+    <rdfs:label>JPIP Referenced Deflate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.2.6.1">
+    <rdfs:label>DICOM UID Registry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9">
+    <rdfs:label>Standalone Curve Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.18.1">
+    <rdfs:label>Referenced Color Print Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.6">
+    <rdfs:label>dicomVendorData</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.14">
+    <rdfs:label>SPM2 AVG305T1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.6">
+    <rdfs:label>SPM2 FIL T1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.2.16.4">
+    <rdfs:label>DICOM Controlled Terminology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.8">
+    <rdfs:label>Standalone Overlay Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.5">
+    <rdfs:label>RT Plan Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.7">
+    <rdfs:label>dicomUniqueAETitle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.1.99">
+    <rdfs:label>Deflated Explicit VR Little Endian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.9">
+    <rdfs:label>Basic Grayscale Print Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.15">
+    <rdfs:label>SPM2 AVG152T1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.91">
+    <rdfs:label>JPEG 2000 Image Compression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.28">
+    <rdfs:label>dicomInstitutionDepartmentName</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.66.3">
+    <rdfs:label>Deformable Spatial Registration Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.1">
+    <rdfs:label>Digital X-Ray Image Storage - For Presentation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.2.1">
+    <rdfs:label>Enhanced CT Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.22">
+    <rdfs:label>VOI LUT Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.2.1">
+    <rdfs:label>Hemodynamic Waveform Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.3.2">
+    <rdfs:label>Patient/Study Only Query/Retrieve Information Model  - MOVE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.5.3">
+    <rdfs:label>Composite Instance Retrieve Without Bulk Data - GET</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.13">
+    <rdfs:label>dicomPort</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.2">
+    <rdfs:label>SPM2 T1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.3">
+    <rdfs:label>dicomUniqueAETitlesRegistryRoot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.2">
+    <rdfs:label>Basic Film Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.2">
+    <rdfs:label>RT Dose Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.20.2">
+    <rdfs:label>Storage Commitment Pull Model SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.7.2">
+    <rdfs:label>Multi-frame Grayscale Byte Secondary Capture Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.9">
+    <rdfs:label>Basic Study Content Notification SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.30">
+    <rdfs:label>Hardcopy Color Image Storage SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.10">
+    <rdfs:label>dicomAssociationInitiator</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.7.1">
+    <rdfs:label>Multi-frame Single Bit Secondary Capture Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.128">
+    <rdfs:label>Positron Emission Tomography Image Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1">
+    <rdfs:label>Computed Radiography Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.4">
+    <rdfs:label>dicomManufacturerModelName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.1">
+    <rdfs:label>dicomDeviceName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.1.4">
+    <rdfs:label>Detached Patient Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.3.5">
+    <rdfs:label>Modality Performed Procedure Step Notification SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.50">
+    <rdfs:label>JPEG Baseline (Process 1)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.3">
+    <rdfs:label>SPM2 T2 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.5">
+    <rdfs:label>dicomNetworkAE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.8">
+    <rdfs:label>dicomNetworkConnectionReference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.7">
+    <rdfs:label>SPM2 PET Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.93">
+    <rdfs:label>JPEG 2000 Part 2 Multi-component  Image Compression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.2.1">
+    <rdfs:label>Detached Visit Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.1.2">
+    <rdfs:label>General ECG Waveform Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.41">
+    <rdfs:label>Product Characteristics Query SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.24">
+    <rdfs:label>Image Overlay Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.27">
+    <rdfs:label>dicomInstitutionAddress</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.25">
+    <rdfs:label>dicomDeviceSerialNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.1.1">
+    <rdfs:label>Detached Patient Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.4">
+    <rdfs:label>SPM2 PD Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.11.3">
+    <rdfs:label>Pseudo-Color Softcopy Presentation State Storage SOP Class</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.38.1">
+    <rdfs:label>Hanging Protocol Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.2.1">
+    <rdfs:label>Video Microscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.2.1">
+    <rdfs:label>Digital Mammography X-Ray Image Storage - For Processing</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.4.2">
+    <rdfs:label>General Audio Waveform Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.92">
+    <rdfs:label>JPEG 2000 Part 2 Multi-component  Image Compression (Lossless Only)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.66.4">
+    <rdfs:label>Segmentation Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.20.1">
+    <rdfs:label>Storage Commitment Push Model SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.4.1">
+    <rdfs:label>Basic Color Image Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.5.1">
+    <rdfs:label>Ophthalmic Photography 8 Bit Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.9">
+    <rdfs:label>SPM2 SPECT Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.42">
+    <rdfs:label>Substance Administration Logging SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.6">
+    <rdfs:label>RT Brachy Treatment Record Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.12">
+    <rdfs:label>dicomHostname</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.1">
+    <rdfs:label>Basic Film Session SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.1.3">
+    <rdfs:label>Ambulatory ECG Waveform Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.2">
+    <rdfs:label>RT Conventional Machine Verification (Supplement 74 Frozen Draft)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.40">
+    <rdfs:label>Procedure Log Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.10">
+    <rdfs:label>Standalone Modality LUT Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.16">
+    <rdfs:label>Printer SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.16.376">
+    <rdfs:label>Printer Configuration Retrieval SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.8">
+    <rdfs:label>RT Ion Plan Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.4.1">
+    <rdfs:label>Enhanced MR Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.2">
+    <rdfs:label>dicomDevicesRoot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.17">
+    <rdfs:label>SPM2 AVG152PD Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.1">
+    <rdfs:label>Text SR Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.81">
+    <rdfs:label>JPEG-LS Lossy (Near-Lossless) Image Compression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.37.2">
+    <rdfs:label>Breast Imaging Relevant Patient Information Query</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.20.2.1">
+    <rdfs:label>Storage Commitment Pull Model SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.2.1">
+    <rdfs:label>Study Root Query/Retrieve Information Model - FIND</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.2.2">
+    <rdfs:label>ICBM Single Subject MRI Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.2">
+    <rdfs:label>CT Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.14">
+    <rdfs:label>dicomSOPClass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.30">
+    <rdfs:label>dicomPreferredCallingAETitle</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.9">
+    <rdfs:label>RT Ion Beams Treatment Record Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.65">
+    <rdfs:label>JPEG Lossless, Hierarchical (Process 28)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.59">
+    <rdfs:label>Key Object Selection Document Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.4">
+    <rdfs:label>RT Beams Treatment Record Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.6.2">
+    <rdfs:label>XML Encoding</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.52">
+    <rdfs:label>JPEG Extended (Process 3 and 5)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.4.4">
+    <rdfs:label>Unified Procedure Step - Event SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.1.3.1">
+    <rdfs:label>Digital Intra-oral X-Ray Image Storage - For Processing</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.25">
+    <rdfs:label>Print Queue SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.32.2">
+    <rdfs:label>General Purpose Scheduled Procedure Step SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.7">
+    <rdfs:label>RT Treatment Summary Record Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.29">
+    <rdfs:label>dicomIssuerOfPatientID</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.3">
+    <rdfs:label>RT Structure Set Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.4.2">
+    <rdfs:label>Composite Instance Root Retrieve - MOVE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.13">
+    <rdfs:label>SPM2 BRAINMASK Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.12.1.1">
+    <rdfs:label>Enhanced XA Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.42.1">
+    <rdfs:label>Substance Administration Logging SOP Instance</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.7.3">
+    <rdfs:label>Multi-frame Grayscale Word Secondary Capture Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.33">
+    <rdfs:label>Media Creation Management SOP Class UID</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.65">
+    <rdfs:label>Chest CAD SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.9">
+    <rdfs:label>dicomApplicationCluster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.23">
+    <rdfs:label>dicomInstalled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.12">
+    <rdfs:label>SPM2 CSF Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.6.2">
+    <rdfs:label>Enhanced US Volume Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.3.1">
+    <rdfs:label>Patient/Study Only Query/Retrieve Information Model  - FIND</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.1">
+    <rdfs:label>Explicit VR Little Endian</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.33">
+    <rdfs:label>Comprehensive SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.1.1">
+    <rdfs:label>Patient Root Query/Retrieve Information Model - FIND</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.29">
+    <rdfs:label>Hardcopy  Grayscale Image Storage SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.13.1.1">
+    <rdfs:label>X-Ray 3D Angiographic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.32.3">
+    <rdfs:label>General Purpose Performed Procedure Step SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.17">
+    <rdfs:label>Printer SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.5">
+    <rdfs:label>RLE Lossless</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.24">
+    <rdfs:label>dicomStationName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.23">
+    <rdfs:label>Presentation LUT SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.11">
+    <rdfs:label>Standalone VOI LUT Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.27">
+    <rdfs:label>Stored Print Storage SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.56">
+    <rdfs:label>JPEG Full Progression, Non-Hierarchical (Process 11 and 13)</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.4.1">
+    <rdfs:label>Basic Voice Audio Waveform Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.12.1">
+    <rdfs:label>X-Ray Angiographic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.37.1">
+    <rdfs:label>General Relevant Patient Information Query</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.7.4">
+    <rdfs:label>Multi-frame True Color Secondary Capture Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.33">
+    <rdfs:label>Instance Availability Notification SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.37.3">
+    <rdfs:label>Cardiac Relevant Patient Information Query</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.5.4">
+    <rdfs:label>Detached Results Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.4.3">
+    <rdfs:label>Composite Instance Root Retrieve - GET</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.4">
+    <rdfs:label>VL Photographic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.17.376">
+    <rdfs:label>Printer Configuration Retrieval SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.94">
+    <rdfs:label>JPIP Referenced</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.6.1">
+    <rdfs:label>Detached Interpretation Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.13.1.2">
+    <rdfs:label>X-Ray 3D Craniofacial Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.58">
+    <rdfs:label>JPEG Lossless, Non-Hierarchical (Process 15)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.4.1">
+    <rdfs:label>Unified Procedure Step - Push SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.5.5">
+    <rdfs:label>Detached Study Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.53">
+    <rdfs:label>JPEG Spectral Selection, Non-Hierarchical (Process 6 and 8)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1">
+    <rdfs:label>VL Image Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.1">
+    <rdfs:label>VL Endoscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.6.1">
+    <rdfs:label>RFC 2557 MIME encapsulation </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.3.1">
+    <rdfs:label>Cardiac Electrophysiology Waveform Storage</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.1.1">
+    <rdfs:label>Video Endoscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.5.1">
+    <rdfs:label>Arterial Pulse Waveform Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.481.1">
+    <rdfs:label>RT Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.18">
+    <rdfs:label>SPM2 SINGLESUBJT1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.12.2">
+    <rdfs:label>X-Ray Radiofluoroscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.5.2">
+    <rdfs:label>Ophthalmic Photography 16 Bit Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.3.3">
+    <rdfs:label>Modality Performed Procedure Step SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.63">
+    <rdfs:label>JPEG Full Progression, Hierarchical (Process 24 and 26)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.2">
+    <rdfs:label>dicomDescription</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.2.1">
+    <rdfs:label>ICBM 452 T1 Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.42">
+    <rdfs:label>Substance Approval Query SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.88.67">
+    <rdfs:label>X-Ray Radiation Dose SR Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.24.1">
+    <rdfs:label>Basic Print Image Overlay Box SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.51">
+    <rdfs:label>JPEG Extended (Process 2 and 4)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.32">
+    <rdfs:label>General Purpose Worklist Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.11.4">
+    <rdfs:label>Blending Softcopy Presentation State Storage SOP Class</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.77.1.2">
+    <rdfs:label>VL Microscopic Image Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.20">
+    <rdfs:label>dicomTLSCyphersuite</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.3">
+    <rdfs:label>Ultrasound Multi-frame Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.2.3">
+    <rdfs:label>Study Root Query/Retrieve Information Model - GET</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.18">
+    <rdfs:label>Basic Color Print Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.31">
+    <rdfs:label>dicomSupportedCharacterSet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.1">
+    <rdfs:label>dicomConfigurationRoot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.1.1">
+    <rdfs:label>DICOM Application Context Name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.32">
+    <rdfs:label>Pull Stored Print Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.55">
+    <rdfs:label>JPEG Full Progression, Non-Hierarchical (Process 10 and 12)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.34.4">
+    <rdfs:label>Unified Worklist and Procedure Step Service Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.90">
+    <rdfs:label>JPEG 2000 Image Compression (Lossless Only)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.6.1">
+    <rdfs:label>Ultrasound Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.5">
+    <rdfs:label>SPM2 EPI Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.26">
+    <rdfs:label>Print Queue Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.4.70">
+    <rdfs:label>JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.1">
+    <rdfs:label>Talairach Brain Atlas Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.20.1.1">
+    <rdfs:label>Storage Commitment Push Model SOP Instance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.9.1">
+    <rdfs:label>Referenced Grayscale Print Management Meta SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.1.31">
+    <rdfs:label>Pull Print Request SOP Class</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.104.1">
+    <rdfs:label>Encapsulated PDF Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.5">
+    <rdfs:label>dicomSoftwareVersion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.2.2">
+    <rdfs:label>Explicit VR Big Endian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.3.1">
+    <rdfs:label>Detached Study Management SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.3.1.2.3.4">
+    <rdfs:label>Modality Performed Procedure Step Retrieve SOP Class</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.1.3">
+    <rdfs:label>Patient Root Query/Retrieve Information Model - GET</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.4.8">
+    <rdfs:label>dicomTransferCapability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.19">
+    <rdfs:label>dicomPreferredCalledAETitle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.15">
+    <rdfs:label>dicomTransferRole</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.5">
+    <rdfs:label>Nuclear Medicine Image  Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.9.1">
+    <rdfs:label>Waveform Storage - Trial</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.20">
+    <rdfs:label>Nuclear Medicine Image Storage</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.8">
+    <rdfs:label>SPM2 TRANSM Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.5.1.4.1.2.2.2">
+    <rdfs:label>Study Root Query/Retrieve Information Model - MOVE</rdfs:label>
+  </rdf:Description>
+  <owl:Class rdf:about="urn:oid:1.2.840.10008.5.1.4.1.1.67">
+    <rdfs:label>Real World Value Mapping Storage</rdfs:label>
+  </owl:Class>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.1.4.1.10">
+    <rdfs:label>SPM2 GRAY Frame of Reference</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:oid:1.2.840.10008.15.0.3.21">
+    <rdfs:label>dicomAuthorizedNodeCertificateReference</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
