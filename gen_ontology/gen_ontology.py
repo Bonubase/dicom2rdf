@@ -51,6 +51,7 @@ for tag,value in dicom._dicom_dict.DicomDictionary.items():
 
     label=value[2]
     assert label
+    graph.add((subject,RDFS.isDefinedBy,settings.ontodoc))
     graph.add((subject,RDFS.label,rdflib.Literal(label)))    
 
     vr=value[0]
@@ -111,15 +112,19 @@ for tag,value in dicom._dicom_dict.DicomDictionary.items():
         subject=uritools.urifromtag(tag,isclass=True)
         subject1=uritools.urifromtag(tag,isclass=True,numeric=True)
         graph.add((subject,OWL.sameAs,subject1))
+        graph.add((subject,RDFS.isDefinedBy,settings.ontodoc))
         graph.add((subject,RDFS.label,rdflib.Literal('Item of: '+label)))
         graph.add((subject,RDF.type,OWL.Class))
 
 for ie in valid_ies:
     subject=uritools.getieclass(ie)
+    graph.add((subject,RDFS.isDefinedBy,settings.ontodoc))
     graph.add((subject,RDFS.label,rdflib.Literal(ie)))
     graph.add((subject,RDF.type,OWL.Class))
 
 graph=graph.serialize(format="pretty-xml")
+
+assert '<rdf:rest' not in graph
 
 # basic information that needs to be on top
 graph1=uritools.newgraph()
