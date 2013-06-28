@@ -1,0 +1,20 @@
+
+v1.1
+
+-added CHANGES file
+-Changes for OWL DL compatibility (mostly in gen_ontology)
+ -use the Collections Ontology (http://purl.org/co) instead of RDF collections
+ -no use of rdf:Property any more
+  -use xsd:long for VR AT
+  -use objectproperty for VR OB,OW
+ -no use of owl:sameAs for properties and classes any more
+  -use owl:equivalentProperty/Class instead
+  -repeat assertions for the alternative URI
+-do not create empty collections/lists
+-generated own data dictionary from pydicom version. added missing tags
+-added bootstrap script in gen_source to recreate all generated sourcecode
+-added isDefinedBy triples in gen_ontology
+
+v1.0
+
+-initial version

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+rm -f ../datadict.py ../modulemacros.py ../iods.py ../iesbyattribute.py ../sequencesbyattribute.py ../sopclasses.py
+
+echo ../datadict.py
+{ ./gen_datadict.py > ../datadict.py ; }||{ exit ; }
+
+echo ../modulemacros.py
+{ ./gen_modulemacros.py > ../modulemacros.py ; }||{ exit ; }
+
+echo ../iods.py
+{ ./gen_iods.py > ../iods.py ; }||{ exit ; }
+
+echo ../iesbyattribute.py
+{ ./gen_iesbyattribute.py > ../iesbyattribute.py ; }||{ exit ; }
+
+echo ../sequencesbyattribute.py
+{ ./gen_sequencesbyattribute.py > ../sequencesbyattribute.py ; }||{ exit ; }
+
+echo ../sopclasses.py
+{ ./gen_sopclasses.py > ../sopclasses.py ; }||{ exit ; }
