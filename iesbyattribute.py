@@ -55,7 +55,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -74,6 +73,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -161,7 +161,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -188,6 +187,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -223,12 +223,13 @@ iesbyattribute={
 },
 # HangingProtocolName
 0x00720002L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # NTPSourceAddress
 0x00181803L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -250,12 +251,11 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # HangingProtocolDescription
 0x00720004L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # SpecificCharacterSet
 0x00080005L: {
@@ -316,7 +316,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -343,6 +342,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -378,8 +378,8 @@ iesbyattribute={
 },
 # HangingProtocolLevel
 0x00720006L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # MACParametersSequence
 0x4FFE0001L: {
@@ -440,7 +440,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -467,6 +466,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -502,44 +502,44 @@ iesbyattribute={
 },
 # HangingProtocolCreator
 0x00720008L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # FrameIncrementPointer
 0x00280009L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
  'NM IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # HangingProtocolCreationDateTime
 0x0072000AL: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # TreatmentSites
 0x300A000BL: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # HangingProtocolDefinitionSequence
 0x0072000CL: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # StudyInstanceUID
 0x0020000DL: {
@@ -594,7 +594,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Unified Procedure Step', 'Instance Availability Notification', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -614,6 +613,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Unified Procedure Step', 'Instance Availability Notification', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -645,23 +645,23 @@ iesbyattribute={
 },
 # HangingProtocolUserIdentificationCodeSequence
 0x0072000EL: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # NearPupillaryDistance
 0x00460062L: {
- None: ['Equipment'],
  'AUTOREFRACTION MEASUREMENTS IOD': ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # DeviceSequence
 0x00500010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -688,7 +688,7 @@ iesbyattribute={
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -746,7 +746,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -765,6 +764,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -852,7 +852,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -879,6 +878,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -971,7 +971,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -998,6 +997,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1090,7 +1090,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -1117,6 +1116,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1155,12 +1155,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -1199,7 +1200,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -1219,7 +1219,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -1285,7 +1285,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -1312,6 +1311,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1347,9 +1347,9 @@ iesbyattribute={
 },
 # SteadyStatePulseSequence
 0x00189017L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SOPInstanceUID
 0x00080018L: {
@@ -1410,7 +1410,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -1437,6 +1436,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1475,8 +1475,8 @@ iesbyattribute={
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
@@ -1540,7 +1540,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -1567,6 +1566,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1659,7 +1659,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -1686,6 +1685,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -1721,24 +1721,24 @@ iesbyattribute={
 },
 # RelativeImagePositionCodeSequence
 0x0022001DL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CameraAngleOfView
 0x0022001EL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReviewTime
 0x300E0005L: {
- None: ['Structure Set', 'Plan', 'Image'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Structure Set', 'Plan', 'Image'],
 },
 # PatientSize
 0x00101020L: {
@@ -1791,7 +1791,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -1810,6 +1809,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -1843,14 +1843,14 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'COMPREHENSIVE SR IOD': ['Series'],
+ None: ['Series'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -1869,6 +1869,7 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Series'],
  'NM IMAGE IOD': ['Series'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Series'],
+ 'COMPREHENSIVE SR IOD': ['Series'],
  'VL MICROSCOPIC IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'US MULTI-FRAME IMAGE IOD': ['Series'],
@@ -1879,7 +1880,6 @@ iesbyattribute={
  'PET IMAGE IOD': ['Series'],
  'LENSOMETRY MEASUREMENTS IOD': ['Series'],
  'MR SPECTROSCOPY IOD': ['Series'],
- 'GENERAL AUDIO WAVEFORM IOD': ['Series'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Series'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Series'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Series'],
@@ -1893,7 +1893,7 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
+ 'GENERAL AUDIO WAVEFORM IOD': ['Series'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -1917,7 +1917,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -1928,11 +1928,11 @@ iesbyattribute={
 # FrameOfInterestDescription
 0x00286022L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
@@ -1941,8 +1941,8 @@ iesbyattribute={
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
@@ -2002,7 +2002,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -2023,6 +2022,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -2056,11 +2056,11 @@ iesbyattribute={
 0x00280006L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -2091,7 +2091,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -2100,39 +2100,40 @@ iesbyattribute={
 },
 # CranialThermalIndex
 0x00185026L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SoftTissueThermalIndex
 0x00185027L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SoftTissueFocusThermalIndex
 0x00185028L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SoftTissueSurfaceThermalIndex
 0x00185029L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AcquisitionDateTime
 0x0008002AL: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Waveform', 'Equipment', 'Encapsulated Document', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -2157,7 +2158,6 @@ iesbyattribute={
  'HEMODYNAMIC IOD': ['Waveform'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  '12-LEAD ECG IOD': ['Waveform'],
  'MR IMAGE IOD': ['Image'],
@@ -2174,7 +2174,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
- None: ['Image', 'Raw Data', 'Waveform', 'Equipment', 'Encapsulated Document', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -2182,20 +2182,20 @@ iesbyattribute={
 },
 # RTPlanTime
 0x300A0007L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # TreatmentVerificationStatus
 0x3008002CL: {
- None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
+ None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
 },
 # PositionReferenceIndicator
 0x00201040L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
- 'COMPREHENSIVE SR IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'SEGMENTATION IOD': ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -2211,6 +2211,7 @@ iesbyattribute={
  'CT IMAGE IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'NM IMAGE IOD': ['Frame of Reference'],
+ 'COMPREHENSIVE SR IOD': ['Frame of Reference'],
  'US MULTI-FRAME IMAGE IOD': ['Frame of Reference'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Frame of Reference'],
  'MR SPECTROSCOPY IOD': ['Frame of Reference'],
@@ -2228,7 +2229,6 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Frame of Reference'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Frame of Reference'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
  'RT IMAGE IOD': ['Frame of Reference'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Frame of Reference'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Frame of Reference'],
@@ -2284,7 +2284,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -2303,6 +2302,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -2336,14 +2336,14 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'COMPREHENSIVE SR IOD': ['Series'],
+ None: ['Series'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -2362,6 +2362,7 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Series'],
  'NM IMAGE IOD': ['Series'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Series'],
+ 'COMPREHENSIVE SR IOD': ['Series'],
  'VL MICROSCOPIC IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'US MULTI-FRAME IMAGE IOD': ['Series'],
@@ -2372,7 +2373,6 @@ iesbyattribute={
  'PET IMAGE IOD': ['Series'],
  'LENSOMETRY MEASUREMENTS IOD': ['Series'],
  'MR SPECTROSCOPY IOD': ['Series'],
- 'GENERAL AUDIO WAVEFORM IOD': ['Series'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Series'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Series'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Series'],
@@ -2386,7 +2386,7 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
+ 'GENERAL AUDIO WAVEFORM IOD': ['Series'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -2410,7 +2410,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -2471,7 +2471,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -2490,6 +2489,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -2523,13 +2523,13 @@ iesbyattribute={
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Image'],
- 'COMPREHENSIVE SR IOD': ['Document'],
+ None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Dose', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SEGMENTATION IOD': ['Segmentation'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -2546,6 +2546,7 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Document'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
+ 'COMPREHENSIVE SR IOD': ['Document'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
@@ -2553,7 +2554,6 @@ iesbyattribute={
  'PET IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -2564,7 +2564,7 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Equipment'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
+ 'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  '12-LEAD ECG IOD': ['Waveform'],
  'MR IMAGE IOD': ['Image'],
@@ -2587,7 +2587,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Equipment'],
- None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Dose', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -2600,11 +2600,11 @@ iesbyattribute={
 0x00280034L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -2635,7 +2635,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -2644,57 +2644,57 @@ iesbyattribute={
 },
 # ImageAndFluoroscopyAreaDoseProduct
 0x0018115EL: {
+ None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Modality Performed Procedure Step', 'Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # InterventionSequence
 0x00180036L: {
- 'XRF IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # StructureSetTime
 0x30060009L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # FrameDimensionPointer
 0x0028000AL: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ROIContourSequence
 0x30060039L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # RefractiveIndexApplied
 0x0052003AL: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PlanIntent
 0x300A000AL: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # SeriesDescription
 0x0008103EL: {
@@ -2747,7 +2747,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -2766,6 +2765,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -2845,7 +2845,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -2864,6 +2863,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -2944,7 +2944,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -2963,6 +2962,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -2994,8 +2994,8 @@ iesbyattribute={
 # ReflectedAmbientLight
 0x20100160L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image', 'Basic Film Box'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -3052,7 +3052,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -3071,6 +3070,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -3102,6 +3102,7 @@ iesbyattribute={
 # ContrastBolusStopTime
 0x00181043L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -3109,7 +3110,6 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -3168,7 +3168,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -3188,6 +3187,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -3219,18 +3219,18 @@ iesbyattribute={
 },
 # IonMachineVerificationSequence
 0x00741046L: {
- None: ['Rt Ion Machine Verification'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
+ None: ['Rt Ion Machine Verification'],
 },
 # BitsAllocated
 0x00280100L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -3261,7 +3261,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -3320,7 +3320,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -3339,6 +3338,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -3419,7 +3419,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -3438,6 +3437,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -3468,46 +3468,47 @@ iesbyattribute={
 },
 # OverriddenAttributesSequence
 0x0074104AL: {
- None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
+ None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
 },
 # GridFocalDistance
 0x0018704CL: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # IntensifierSize
 0x00181162L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReviewerName
 0x300E0008L: {
- None: ['Structure Set', 'Plan', 'Image'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Structure Set', 'Plan', 'Image'],
 },
 # PerformingPhysicianName
 0x00081050L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -3546,7 +3547,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -3566,7 +3566,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -3625,7 +3625,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -3644,6 +3643,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -3677,12 +3677,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -3721,7 +3722,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -3741,7 +3741,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -3754,6 +3754,7 @@ iesbyattribute={
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -3764,20 +3765,19 @@ iesbyattribute={
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Presentation State'],
- 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
+ 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # FirstTreatmentDate
 0x30080054L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # SeriesInstanceUID
 0x0020000EL: {
@@ -3830,7 +3830,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -3849,6 +3848,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -3879,31 +3879,31 @@ iesbyattribute={
 },
 # MostRecentTreatmentDate
 0x30080056L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # TestPointNormalsDataFlag
 0x00240057L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # MydriaticAgentSequence
 0x00220058L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImagerPixelSpacing
 0x00181164L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -3912,39 +3912,39 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # TransducerApplicationCodeSequence
 0x0018980FL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorManufacturerName
 0x0018702AL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # EnergyWindowRangeSequence
 0x00540013L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # ImageOrientationPatient
 0x00200037L: {
- None: ['Image', 'Dose'],
  'MR IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'PET IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
 },
 # ClinicalTrialCoordinatingCenterName
 0x00120060L: {
@@ -3998,7 +3998,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -4017,6 +4016,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -4096,7 +4096,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -4115,6 +4114,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -4195,7 +4195,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -4215,6 +4214,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -4295,7 +4295,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -4314,6 +4313,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -4394,7 +4394,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -4413,6 +4412,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -4444,16 +4444,16 @@ iesbyattribute={
 # FrameTimeVector
 0x00181065L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -4461,16 +4461,16 @@ iesbyattribute={
 # FrameDelay
 0x00181066L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -4478,36 +4478,37 @@ iesbyattribute={
 # ImageTriggerDelay
 0x00181067L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # PresentationIntentType
 0x00080068L: {
- None: ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Series'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Series'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Series'],
- 'DIGITAL X-RAY IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # PatientReliabilityIndicator
 0x00240069L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # SynchronizationTrigger
 0x0018106AL: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -4529,16 +4530,16 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # Optotype
 0x00460094L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # SynchronizationChannel
 0x0018106CL: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -4560,12 +4561,11 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # SourceHangingProtocolSequence
 0x00720012L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # ReferencedStudySequence
 0x00081110L: {
@@ -4619,7 +4619,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -4638,6 +4637,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -4668,14 +4668,14 @@ iesbyattribute={
 },
 # SpectralWidth
 0x00189052L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # FractionGroupSequence
 0x300A0070L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ClinicalTrialSeriesID
 0x00120071L: {
@@ -4729,7 +4729,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -4748,6 +4747,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -4828,7 +4828,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series'],
- None: ['Series'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -4847,6 +4846,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -4934,7 +4934,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -4961,6 +4960,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -4996,90 +4996,90 @@ iesbyattribute={
 },
 # ShortTermFluctuationCalculated
 0x00240074L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # SegmentedRedPaletteColorLookupTableData
 0x00281221L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State'],
  'COLOR PALETTE IOD': ['Color Palette'],
 },
 # ShortTermFluctuationProbabilityCalculated
 0x00240076L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ShortTermFluctuationProbability
 0x00240077L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # NumberOfFractionsPlanned
 0x300A0078L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # NumberOfPriorsReferenced
 0x00720014L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # ParticipantSequence
 0x0040A07AL: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # MaximumFractionalValue
 0x0062000EL: {
- None: ['Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
+ None: ['Segmentation'],
 },
 # CustodialOrganizationSequence
 0x0040A07CL: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # NumberOfZeroFills
 0x00189066L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # PhotometricInterpretation
 0x00280004L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -5110,7 +5110,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -5119,15 +5119,15 @@ iesbyattribute={
 },
 # TimeOfFlightContrast
 0x00189015L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedDoseSequence
 0x300C0080L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ClinicalTrialProtocolEthicsCommitteeName
 0x00120081L: {
@@ -5181,7 +5181,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -5200,6 +5199,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -5280,7 +5280,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -5299,6 +5298,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -5379,7 +5379,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -5398,6 +5397,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -5478,7 +5478,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Unified Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -5497,6 +5496,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Unified Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -5530,8 +5530,8 @@ iesbyattribute={
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
@@ -5588,7 +5588,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -5607,6 +5606,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -5641,61 +5641,61 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
- 'COLOR PALETTE IOD': ['Color Palette'],
- None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ 'COLOR PALETTE IOD': ['Color Palette'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
 },
 # HeartRate
 0x00181088L: {
+ None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
 },
 # AutorefractionRightEyeSequence
 0x00460050L: {
- None: ['Equipment'],
  'AUTOREFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # BeamSpotSize
 0x00520003L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LightPathFilterTypeStackCodeSequence
 0x00220017L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DistanceSourceToPatient
 0x00181111L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PositionerPrimaryAngle
 0x00181510L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferringPhysicianName
 0x00080090L: {
@@ -5749,7 +5749,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -5768,6 +5767,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -5801,8 +5801,8 @@ iesbyattribute={
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
@@ -5810,13 +5810,13 @@ iesbyattribute={
 # ReferencedImageEvidenceSequence
 0x00089092L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -5824,23 +5824,23 @@ iesbyattribute={
 # SegmentedGreenPaletteColorLookupTableData
 0x00281222L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State'],
  'COLOR PALETTE IOD': ['Color Palette'],
 },
 # CoverageOfKSpace
 0x00189094L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
-# 
+# ImplantName
 0x00221095L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # ReferringPhysicianIdentificationSequence
 0x00080096L: {
@@ -5894,7 +5894,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -5913,6 +5912,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -5945,54 +5945,54 @@ iesbyattribute={
 0x00089206L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
- 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ 'ENHANCED CT IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED CT IMAGE IOD': ['Image'],
+ 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # TransmitterFrequency
 0x00189098L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # TableFeedPerRotation
 0x00189310L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BrachyTreatmentType
 0x300A0202L: {
- None: ['Treatment Record', 'Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Plan'],
 },
 # ChannelDescriptionCodeSequence
 0x0022001AL: {
+ None: ['Image'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'VL SLIDE-COORDINATES MICROSCOPIC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
 },
 # RespiratoryMotionCompensationTechnique
 0x00189170L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -6049,7 +6049,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -6069,6 +6068,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -6149,7 +6149,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -6168,6 +6167,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -6201,25 +6201,26 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # TransducerScanPatternCodeSequence
 0x00189809L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # ContrastBolusAgentSequence
 0x00180012L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -6227,102 +6228,101 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ViewPosition
 0x00185101L: {
- None: ['Series', 'Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'CR IMAGE IOD': ['Series'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'CR IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # TemporalRangeType
 0x0040A130L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # BeamSequence
 0x300A00B0L: {
- None: ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # RecommendedAbsentPixelCIELabValue
 0x00480015L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # PrimaryDosimeterUnit
 0x300A00B3L: {
- None: ['Treatment Record', 'Image'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
- 'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT IMAGE IOD': ['Image'],
+ 'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Image'],
 },
 # GantryDetectorTilt
 0x00181120L: {
- None: ['Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Series'],
 },
 # TimeOfFlightInformationUsed
 0x00189755L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScatterCorrectionMethod
 0x00541105L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # RTPlanDate
 0x300A0006L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ReferencedImageNavigationSequence
 0x00480200L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # ApplicableSafetyStandardDescription
 0x00189175L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # CommentsOnTheScheduledProcedureStep
 0x00400400L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # PatientOrientation
 0x00200020L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -6402,7 +6402,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Unified Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -6421,6 +6420,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Unified Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -6452,29 +6452,30 @@ iesbyattribute={
 # SliceLocation
 0x00201041L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
  'NM IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'PET IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
- None: ['Image', 'Dose'],
 },
 # AcquisitionDeviceProcessingCode
 0x00181401L: {
- None: ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'CR IMAGE IOD': ['Image'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'CR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TransducerType
 0x00186031L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AcquisitionTimeSynchronized
 0x00181800L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -6496,7 +6497,6 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # ClinicalTrialProtocolName
 0x00120021L: {
@@ -6550,7 +6550,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -6569,6 +6568,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -6599,48 +6599,48 @@ iesbyattribute={
 },
 # PercentPhaseFieldOfView
 0x00180094L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfSlices
 0x00540081L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # GridFrameOffsetVector
 0x3004000CL: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # VideoImageFormatAcquired
 0x00181022L: {
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
 },
 # ProcedureStepProgressInformationSequence
 0x00741002L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # ContentDate
 0x00080023L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Image'],
- 'COMPREHENSIVE SR IOD': ['Document'],
+ None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Dose', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SEGMENTATION IOD': ['Segmentation'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -6657,6 +6657,7 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Document'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
+ 'COMPREHENSIVE SR IOD': ['Document'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
@@ -6664,7 +6665,6 @@ iesbyattribute={
  'PET IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -6675,7 +6675,7 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Equipment'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
+ 'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  '12-LEAD ECG IOD': ['Waveform'],
  'MR IMAGE IOD': ['Image'],
@@ -6698,7 +6698,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Equipment'],
- None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Series', 'Spatial Fiducials', 'Dose', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -6709,48 +6709,49 @@ iesbyattribute={
 },
 # PerformedWorkitemCodeSequence
 0x00404019L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # TotalPixelMatrixRows
 0x00480007L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # BoneThermalIndex
 0x00185024L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AlongScanSpatialResolution
 0x00220037L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SpectrallySelectedSuppression
 0x00189025L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TreatmentSummaryMeasuredDoseReferenceSequence
 0x300800E0L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # VisualFieldTestDuration
 0x00240088L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # TimeSource
 0x00181801L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -6772,36 +6773,35 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # ScheduledStationClassCodeSequence
 0x00404026L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
-# 
+# LossyImageCompressionMethod
 0x00282144L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AngularViewVector
 0x00540090L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScheduledStationGeographicLocationCodeSequence
 0x00404027L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # WindowWidth
 0x00281051L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'PET IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
@@ -6819,33 +6819,34 @@ iesbyattribute={
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
 },
 # DetectorActiveOrigin
 0x00187028L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # TriggerTime
 0x00181060L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StudiesContainingOtherReferencedInstancesSequence
 0x00081200L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Presentation State', 'Spatial Registration', 'Spatial Fiducials', 'Image', 'Surface', 'Segmentation', 'Real World Value Mapping', 'Stereometric Relationship', 'Plan'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
  'SEGMENTATION IOD': ['Segmentation'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Plan'],
@@ -6853,7 +6854,6 @@ iesbyattribute={
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'STEREOMETRIC RELATIONSHIP IOD': ['Stereometric Relationship'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Presentation State', 'Spatial Registration', 'Spatial Fiducials', 'Image', 'Surface', 'Segmentation', 'Real World Value Mapping', 'Stereometric Relationship', 'Plan'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
 },
 # PresentationCreationTime
@@ -6861,25 +6861,26 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # StructureSetDate
 0x30060008L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # OversamplingPhase
 0x00189029L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContrastBolusIngredient
 0x00181048L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -6887,57 +6888,57 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PrinterStatusInfo
 0x21100020L: {
- None: ['Printer'],
  'PRINTER IOD': ['Printer'],
+ None: ['Printer'],
 },
 # RTImageLabel
 0x30020002L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FilterThicknessMaximum
 0x00187054L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # PlateID
 0x00181004L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # XRayReceptorType
 0x00189420L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PatientPosition
 0x00185100L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series', 'Image'],
@@ -6976,7 +6977,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series', 'Image'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -6996,7 +6996,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series', 'Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
@@ -7008,11 +7008,11 @@ iesbyattribute={
 0x00280101L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7043,7 +7043,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7054,11 +7054,11 @@ iesbyattribute={
 0x00280102L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7089,7 +7089,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7100,11 +7100,11 @@ iesbyattribute={
 0x00280103L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7135,7 +7135,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7144,27 +7144,27 @@ iesbyattribute={
 },
 # IVUSPullbackStopFrameNumber
 0x00183104L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
+ 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LesionNumber
 0x00183105L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ICCProfile
 0x00282000L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Basic Film Box', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7200,7 +7200,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Basic Film Box', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7211,11 +7211,11 @@ iesbyattribute={
 0x00280107L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7246,7 +7246,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7258,12 +7258,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -7302,7 +7303,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -7322,7 +7322,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -7334,12 +7334,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -7378,7 +7379,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -7398,7 +7398,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -7407,34 +7407,34 @@ iesbyattribute={
 },
 # MaskSubtractionSequence
 0x00286100L: {
- 'XRF IMAGE IOD': ['Image'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # XRayImageReceptorTranslation
 0x3002000DL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TreatmentSessionApplicationSetupSequence
 0x30080110L: {
- None: ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # DerivationDescription
 0x00082111L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7465,11 +7465,11 @@ iesbyattribute={
 0x00082112L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7498,18 +7498,18 @@ iesbyattribute={
 },
 # MeasurementLaterality
 0x00240113L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # LossyImageCompressionMethod
 0x00282114L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -7539,7 +7539,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -7550,6 +7550,7 @@ iesbyattribute={
 0x00081115L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Presentation State', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Image', 'Surface', 'Segmentation', 'Real World Value Mapping', 'Stereometric Relationship', 'Plan'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
  'SEGMENTATION IOD': ['Segmentation'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Plan'],
@@ -7557,42 +7558,41 @@ iesbyattribute={
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'STEREOMETRIC RELATIONSHIP IOD': ['Stereometric Relationship'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
- None: ['Presentation State', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Image', 'Surface', 'Segmentation', 'Real World Value Mapping', 'Stereometric Relationship', 'Plan'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'INSTANCE AVAILABILITY NOTIFICATION IOD': ['Instance Availability Notification'],
 },
 # MIMETypeOfEncapsulatedDocument
 0x00420012L: {
- None: ['Encapsulated Document', 'Implant Assembly'],
+ 'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
- 'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document', 'Implant Assembly'],
 },
 # FovealPointNormativeDataFlag
 0x00240117L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # FovealPointProbabilityValue
 0x00240118L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DistanceReceptorPlaneToDetectorHousing
 0x00189426L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # UnspecifiedLateralityLensSequence
 0x00460016L: {
- None: ['Equipment'],
  'LENSOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # BlendingLUT1Sequence
 0x00281404L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedPatientSequence
 0x00081120L: {
@@ -7647,7 +7647,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Modality Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -7666,6 +7665,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -7699,12 +7699,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -7743,7 +7744,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -7763,7 +7763,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -7772,33 +7772,33 @@ iesbyattribute={
 },
 # StageNumber
 0x00082122L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CreatorVersionUID
 0x00089123L: {
- None: ['Raw Data'],
  'RAW DATA IOD': ['Raw Data'],
+ None: ['Raw Data'],
 },
 # PageNumberVector
 0x00182001L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AnteriorChamberDepthDefinitionCodeSequence
 0x00221125L: {
- None: ['Series'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
+ None: ['Series'],
 },
 # VolumeLocalizationSequence
 0x00189126L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ClinicalTrialSiteName
 0x00120031L: {
@@ -7852,7 +7852,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -7871,6 +7870,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -7901,31 +7901,31 @@ iesbyattribute={
 },
 # ViewNumber
 0x00082128L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfEventTimers
 0x00082129L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfViewsInStage
 0x0008212AL: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # dBdt
 0x00181318L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IsocenterPosition
 0x300A012CL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PatientBirthTime
 0x00100032L: {
@@ -7979,7 +7979,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -7998,6 +7997,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -8028,82 +8028,82 @@ iesbyattribute={
 },
 # PlanningLandmarkPointSequence
 0x00686500L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # MaxDensity
 0x20100130L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # GraphicData
 0x00700022L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # StageCodeSequence
 0x0040000AL: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SegmentedKSpaceTraversal
 0x00189033L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableMotion
 0x00181134L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LightPathFilterPassThroughWavelength
 0x00220001L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableLateralIncrement
 0x00181136L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableLongitudinalIncrement
 0x00181137L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedTimeOffsets
 0x0040A138L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # RequestingServiceCodeSequence
@@ -8158,7 +8158,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -8177,6 +8176,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -8208,32 +8208,32 @@ iesbyattribute={
 # ReferencedWaveformSequence
 0x0008113AL: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
 },
 # BasicColorImageSequence
 0x20200111L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # ActualHumanPerformersSequence
 0x00404035L: {
- None: ['General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # ReferencedImageSequence
 0x00081140L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -8263,16 +8263,16 @@ iesbyattribute={
 # StartTrim
 0x00082142L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -8280,16 +8280,16 @@ iesbyattribute={
 # StopTrim
 0x00082143L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -8298,64 +8298,64 @@ iesbyattribute={
 0x00082144L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # ReferencedRefractiveMeasurementsSequence
 0x00460145L: {
- None: ['Equipment'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Equipment'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # WaveformAnnotationSequence
 0x0040B020L: {
  'RESPIRATORY WAVEFORM IOD': ['Waveform'],
+ None: ['Waveform'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'HEMODYNAMIC IOD': ['Waveform'],
- '12-LEAD ECG IOD': ['Waveform'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Waveform'],
- 'GENERAL ECG IOD': ['Waveform'],
+ '12-LEAD ECG IOD': ['Waveform'],
 },
 # GeneralPurposePerformedProcedureStepStatus
 0x00404002L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # FieldOfViewDimensions
 0x00181149L: {
+ None: ['Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ReferencedInstanceSequence
 0x0008114AL: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'COMPREHENSIVE SR IOD': ['Document'],
+ None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -8367,6 +8367,7 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Document'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
+ 'COMPREHENSIVE SR IOD': ['Document'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
@@ -8378,7 +8379,6 @@ iesbyattribute={
  'HEMODYNAMIC IOD': ['Waveform'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  '12-LEAD ECG IOD': ['Waveform'],
  'MR IMAGE IOD': ['Image'],
@@ -8397,7 +8397,7 @@ iesbyattribute={
  'VL PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Image', 'Raw Data', 'Waveform', 'Document', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
@@ -8408,128 +8408,129 @@ iesbyattribute={
 # CardiacSynchronizationTechnique
 0x00189037L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # AxialResolution
 0x00520008L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ConfigurationInformation
 0x20100150L: {
- None: ['Basic Film Box', 'Basic Image Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Film Box', 'Basic Image Box'],
 },
 # XRayTubeCurrent
 0x00181151L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # Exposure
 0x00181152L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ExposureInuAs
 0x00181153L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # SourceImageEvidenceSequence
 0x00089154L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # RadiationSetting
 0x00181155L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RectificationType
 0x00181156L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # InterpolationType
 0x00520039L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OphthalmicAxialMeasurementsRightEyeSequence
 0x00221007L: {
- None: ['Series'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
+ None: ['Series'],
 },
 # RadiationMode
 0x0018115AL: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # Illumination
 0x2010015EL: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image', 'Basic Film Box'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # OwnerID
 0x21000160L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # ConcatenationUID
 0x00209161L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -8539,10 +8540,9 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
@@ -8550,8 +8550,9 @@ iesbyattribute={
 0x00209162L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -8561,10 +8562,9 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
@@ -8572,8 +8572,9 @@ iesbyattribute={
 0x00209163L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -8583,16 +8584,16 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # FrameExtractionSequence
 0x00081164L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
@@ -8612,13 +8613,12 @@ iesbyattribute={
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -8626,34 +8626,34 @@ iesbyattribute={
 },
 # Grid
 0x00181166L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # TreatmentSummaryCalculatedDoseReferenceSequence
 0x30080050L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # CardiacBeatRejectionTechnique
 0x00189169L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -8662,67 +8662,67 @@ iesbyattribute={
 0x00281090L: {
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'XRF IMAGE IOD': ['Image'],
 },
 # ImageBoxPosition
 0x20200010L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # RTPlanGeometry
 0x300A000CL: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # GeneratorPower
 0x00181170L: {
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RespiratorySignalSource
 0x00189171L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # BulkMotionCompensationTechnique
 0x00189172L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # BulkMotionSignalSource
 0x00189173L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # ApplicableSafetyStandardAgency
 0x00189174L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # AnnotationDisplayFormatID
 0x20100030L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # GantryID
 0x00181008L: {
@@ -8776,7 +8776,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -8795,6 +8794,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -8825,31 +8825,31 @@ iesbyattribute={
 },
 # ReplacedImplantTemplateSequence
 0x00686222L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # SequenceVariant
 0x00180021L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FrameSecondaryAngleVector
 0x00182004L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PixelData
 0x7FE00010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -8880,7 +8880,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -8938,7 +8938,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -8957,6 +8956,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -9039,7 +9039,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -9059,6 +9058,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -9090,17 +9090,17 @@ iesbyattribute={
 },
 # ModeOfPercutaneousAccessSequence
 0x00520016L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ModalityLUTSequence
 0x00283000L: {
  'SC IMAGE IOD': ['Image'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Dose', 'Presentation State'],
  'RT DOSE IOD': ['Dose'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XRF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Presentation State'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -9108,6 +9108,7 @@ iesbyattribute={
 # ContrastBolusVolume
 0x00181041L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9115,49 +9116,53 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PupilDilated
 0x0022000DL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # GeneralMachineVerificationSequence
 0x00741042L: {
- None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
+ None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
 },
 # StartRespiratoryTriggerCountThreshold
 0x00189718L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FocalSpots
 0x00181190L: {
- 'XRF IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Series', 'Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Series', 'Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # AnodeTargetMaterial
 0x00181191L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+},
+# GantryAngle
+0x300A011EL: {
+ 'RT IMAGE IOD': ['Image'],
  None: ['Image'],
 },
 # ConceptNameCodeSequence
@@ -9171,41 +9176,42 @@ iesbyattribute={
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document', 'Encapsulated Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document', 'Encapsulated Document'],
  'COLON CAD SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
 },
-# 
+# OphthalmicAxialMeasurementsDeviceType
 0x00221009L: {
- None: ['Series'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
+ None: ['Series'],
 },
 # OCTZOffsetApplied
 0x00520026L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PaletteColorLookupTableUID
 0x00281199L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State'],
  'COLOR PALETTE IOD': ['Color Palette'],
 },
 # FirstOrderPhaseCorrection
 0x00189198L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ContrastBolusTotalDose
 0x00181044L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9213,7 +9219,6 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -9222,47 +9227,47 @@ iesbyattribute={
 0x00200062L: {
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Raw Data', 'Image', 'Encapsulated Document'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Raw Data', 'Image', 'Encapsulated Document'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RAW DATA IOD': ['Raw Data'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
 },
 # SliceLocationVector
 0x00182005L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CorrectedImage
 0x00280051L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # BodyPartThickness
 0x001811A0L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CompressionForce
 0x001811A2L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FrameOfReferenceUID
 0x00200052L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
- 'COMPREHENSIVE SR IOD': ['Frame of Reference'],
+ None: ['Frame of Reference', 'Implant Template'],
  'SEGMENTATION IOD': ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -9278,6 +9283,7 @@ iesbyattribute={
  'CT IMAGE IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'NM IMAGE IOD': ['Frame of Reference'],
+ 'COMPREHENSIVE SR IOD': ['Frame of Reference'],
  'US MULTI-FRAME IMAGE IOD': ['Frame of Reference'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Frame of Reference'],
  'MR SPECTROSCOPY IOD': ['Frame of Reference'],
@@ -9296,7 +9302,6 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Frame of Reference'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Frame of Reference'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Frame of Reference'],
- None: ['Frame of Reference', 'Implant Template'],
  'RT IMAGE IOD': ['Frame of Reference'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Frame of Reference'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Frame of Reference'],
@@ -9304,6 +9309,7 @@ iesbyattribute={
 # ContrastFlowRate
 0x00181046L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9311,35 +9317,35 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # InputReadinessState
 0x00404041L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # SliceVector
 0x00540080L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FilmOrientation
 0x20100040L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # PrescriptionDescription
 0x300A000EL: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ContrastFlowDuration
 0x00181047L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9347,20 +9353,19 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ImplantTargetAnatomySequence
 0x00686230L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # LabelStyleSelection
 0x22000003L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # AdditionalPatientHistory
 0x001021B0L: {
@@ -9413,7 +9418,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -9432,6 +9436,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -9462,23 +9467,24 @@ iesbyattribute={
 },
 # FailedAttributesSequence
 0x00741048L: {
- None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
+ None: ['Rt Ion Machine Verification', 'Rt Conventional Machine Verification'],
 },
 # RequestPriority
 0x22000020L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # AutorefractionLeftEyeSequence
 0x00460052L: {
- None: ['Equipment'],
  'AUTOREFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ContrastBolusIngredientConcentration
 0x00181049L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9486,60 +9492,59 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DisplayWindowLabelVector
 0x00182006L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SegmentSequence
 0x00620002L: {
- None: ['Surface', 'Segmentation'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
  'SEGMENTATION IOD': ['Segmentation'],
+ None: ['Surface', 'Segmentation'],
 },
 # SurgicalTechnique
 0x00760030L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # Units
 0x00541001L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # AllowLossyCompression
 0x2200000FL: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # EchoTime
 0x00180081L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LightPathFilterPassBand
 0x00220002L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # Rows
 0x00280010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -9571,7 +9576,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -9580,38 +9585,39 @@ iesbyattribute={
 },
 # Polarity
 0x20200020L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # DataCollectionDiameter
 0x00180090L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MinDensity
 0x20100120L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # FilterType
 0x00181160L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Series', 'Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Series', 'Image'],
  'CR IMAGE IOD': ['Series'],
 },
 # SequenceName
 0x00180024L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContrastBolusAdministrationRouteSequence
 0x00180014L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -9619,42 +9625,41 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # TemporalResolution
 0x00200110L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SaturationRecovery
 0x00189024L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FilmSessionLabel
 0x20000050L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # TriggerWindow
 0x00181094L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AnatomicStructureSpaceOrRegionSequence
 0x00082229L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # ReferencedFrameOfReferenceSequence
 0x30060010L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # ClinicalTrialTimePointDescription
 0x00120051L: {
@@ -9708,7 +9713,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -9727,6 +9731,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -9807,7 +9812,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -9826,6 +9830,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -9856,9 +9861,9 @@ iesbyattribute={
 },
 # AcquisitionProtocolName
 0x00189423L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RescaleIntercept
 0x00281052L: {
@@ -9866,6 +9871,7 @@ iesbyattribute={
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -9876,38 +9882,37 @@ iesbyattribute={
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Presentation State'],
- 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
+ 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # DistancePupillaryDistance
 0x00460060L: {
- None: ['Equipment'],
  'AUTOREFRACTION MEASUREMENTS IOD': ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ReferencedBasicAnnotationBoxSequence
 0x20100520L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # ChemicalShiftReference
 0x00189053L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # RespiratoryTriggerType
 0x00209250L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -9918,35 +9923,36 @@ iesbyattribute={
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Presentation State'],
+ 'XRF IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # ReprojectionMethod
 0x00541004L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # IlluminationWaveLength
 0x00220055L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # WindowCenterWidthExplanation
 0x00281055L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -9957,15 +9963,14 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DisplaySetsSequence
 0x00720200L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # TimezoneOffsetFromUTC
 0x00080201L: {
@@ -10026,7 +10031,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -10053,6 +10057,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -10090,11 +10095,11 @@ iesbyattribute={
 0x00281202L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10128,7 +10133,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -10186,7 +10191,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -10205,6 +10209,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -10237,14 +10242,14 @@ iesbyattribute={
 0x00280A04L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'CR IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
@@ -10253,6 +10258,7 @@ iesbyattribute={
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -10263,7 +10269,6 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -10272,11 +10277,11 @@ iesbyattribute={
 0x00204000L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10308,7 +10313,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -10318,56 +10323,57 @@ iesbyattribute={
 # VolumeBasedCalculationTechnique
 0x00089207L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
- 'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
- 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
- 'ENHANCED PET IMAGE IOD': ['Image'],
  None: ['Image', 'Equipment'],
+ 'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ 'ENHANCED CT IMAGE IOD': ['Image'],
+ 'ENHANCED PET IMAGE IOD': ['Image'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED CT IMAGE IOD': ['Image'],
+ 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # PartialDataDisplayHandling
 0x00720208L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # AcquisitionContrast
 0x00089209L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # ScreeningBaselineMeasuredSequence
 0x00240122L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # SpecimenLabelInImage
 0x00480010L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # EntranceDose
 0x00400302L: {
- None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Modality Performed Procedure Step', 'Image'],
 },
 # AnatomicalOrientationType
 0x00102210L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -10406,7 +10412,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -10426,7 +10431,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -10435,40 +10440,40 @@ iesbyattribute={
 },
 # FilterBeamPathLengthMaximum
 0x00187058L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # EndCumulativeMetersetWeight
 0x300C0009L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExposedArea
 0x00400303L: {
- None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Modality Performed Procedure Step', 'Image'],
 },
 # NavigationIndicatorSequence
 0x00720214L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # DerivationCodeSequence
 0x00089215L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10497,20 +10502,20 @@ iesbyattribute={
 },
 # UnifiedProcedureStepPerformedProcedureSequence
 0x00741216L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # Decoupling
 0x00189059L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # AnatomicRegionSequence
 0x00082218L: {
+ None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10534,18 +10539,18 @@ iesbyattribute={
 },
 # FrameReferenceTime
 0x00541300L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImageType
 0x00080008L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10577,7 +10582,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -10587,39 +10592,40 @@ iesbyattribute={
 # MultiplexedAudioChannelsDescriptionCodeSequence
 0x003A0300L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # RevolutionTime
 0x00189305L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FractionGroupSummarySequence
 0x30080220L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # DimensionOrganizationSequence
 0x00209221L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -10629,10 +10635,9 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
@@ -10640,11 +10645,11 @@ iesbyattribute={
 0x00200012L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -10675,7 +10680,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -10683,44 +10688,45 @@ iesbyattribute={
 # SegmentedBluePaletteColorLookupTableData
 0x00281223L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State'],
  'COLOR PALETTE IOD': ['Color Palette'],
 },
 # ReplacedProcedureStepSequence
 0x00741224L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # DistanceSourceToEntrance
 0x00400306L: {
- None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Modality Performed Procedure Step', 'Image'],
 },
 # EffectiveDateTime
 0x00686226L: {
- None: ['Implant Template Group', 'Implant Assembly', 'Implant Template'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Template Group', 'Implant Assembly', 'Implant Template'],
 },
 # MemoryAllocation
 0x20000060L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # ConcatenationFrameOffsetNumber
 0x00209228L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -10730,10 +10736,9 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
@@ -10741,8 +10746,9 @@ iesbyattribute={
 0x52009229L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -10752,32 +10758,31 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # TotalCollimationWidth
 0x00189307L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LabelText
 0x22000002L: {
- None: ['Image', 'Media Creation Management'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Image', 'Media Creation Management'],
 },
 # PixelIntensityRelationship
 0x00281040L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -10785,8 +10790,9 @@ iesbyattribute={
 0x52009230L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -10796,85 +10802,84 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # WaveformDisplayBackgroundCIELabValue
 0x003A0231L: {
  'RESPIRATORY WAVEFORM IOD': ['Waveform'],
+ None: ['Waveform'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'HEMODYNAMIC IOD': ['Waveform'],
- '12-LEAD ECG IOD': ['Waveform'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Waveform'],
- 'GENERAL ECG IOD': ['Waveform'],
+ '12-LEAD ECG IOD': ['Waveform'],
 },
 # DateTime
 0x0040A120L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # WaveformSequence
 0x54000100L: {
  'RESPIRATORY WAVEFORM IOD': ['Waveform'],
+ None: ['Waveform'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'HEMODYNAMIC IOD': ['Waveform'],
- '12-LEAD ECG IOD': ['Waveform'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Waveform'],
- 'GENERAL ECG IOD': ['Waveform'],
+ '12-LEAD ECG IOD': ['Waveform'],
 },
 # ReferencedPresentationStateSequence
 0x00089237L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # IlluminationBandwidth
 0x00220057L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TotalNumberOfExposures
 0x00400301L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # SeriesType
 0x00541000L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # SecondaryCaptureDeviceID
 0x00181010L: {
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED CDA IOD': ['Equipment'],
@@ -10931,7 +10936,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series', 'Equipment'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Equipment', 'Modality Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -10950,6 +10954,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series', 'Equipment'],
+ None: ['Series', 'Equipment', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -10981,26 +10986,26 @@ iesbyattribute={
 # ActualFrameDuration
 0x00181242L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'NM IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # PerformedLocation
 0x00400243L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # PerformedProcedureStepStartDate
 0x00400244L: {
@@ -11046,7 +11051,6 @@ iesbyattribute={
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -11065,6 +11069,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Series'],
@@ -11135,7 +11140,6 @@ iesbyattribute={
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -11154,6 +11158,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Series'],
@@ -11183,16 +11188,17 @@ iesbyattribute={
 # ReferencedRawDataSequence
 0x00089121L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
 },
 # TriggerSourceOrType
 0x00181061L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference', 'Image', 'Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -11215,13 +11221,12 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference', 'Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
 },
 # DoseUnits
 0x30040002L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # PhysiciansReadingStudyIdentificationSequence
 0x00081062L: {
@@ -11275,7 +11280,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -11294,6 +11298,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -11324,16 +11329,16 @@ iesbyattribute={
 },
 # SynchronizedScrollingSequence
 0x00720210L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # TreatmentDate
 0x30080250L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # EthnicGroup
 0x00102160L: {
@@ -11387,7 +11392,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -11406,6 +11410,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -11436,8 +11441,8 @@ iesbyattribute={
 },
 # PerformedProcedureStepStatus
 0x00400252L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # PerformedProcedureStepID
 0x00400253L: {
@@ -11483,7 +11488,6 @@ iesbyattribute={
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -11502,6 +11506,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Series'],
@@ -11572,7 +11577,6 @@ iesbyattribute={
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -11591,6 +11595,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Series'],
@@ -11619,26 +11624,26 @@ iesbyattribute={
 },
 # PerformedProcedureTypeDescription
 0x00400255L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # RespiratoryTriggerDelayThreshold
 0x00209256L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # TestPointNormalsSequence
 0x00240058L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # IssuerOfServiceEpisodeIDSequence
 0x00380064L: {
@@ -11692,7 +11697,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -11712,6 +11716,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -11742,8 +11747,8 @@ iesbyattribute={
 },
 # ImagePlanePixelSpacing
 0x30020011L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IssuerOfAdmissionIDSequence
 0x00380014L: {
@@ -11797,7 +11802,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Unified Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -11817,6 +11821,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Unified Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -11847,8 +11852,8 @@ iesbyattribute={
 },
 # TimeDomainFiltering
 0x00189065L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # PerformedProtocolCodeSequence
 0x00400260L: {
@@ -11857,12 +11862,12 @@ iesbyattribute={
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT BRACHY TREATMENT RECORD IOD': ['Series'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
  'RT STRUCTURE SET IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'RT PLAN IOD': ['Series'],
@@ -11930,7 +11935,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Series'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
@@ -11940,27 +11945,27 @@ iesbyattribute={
 },
 # PhosphorType
 0x00181261L: {
- None: ['Series'],
  'CR IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # ExposureStatus
 0x00187064L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # GeometryOfKSpaceTraversal
 0x00189032L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExaminedBodyThickness
 0x00109431L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StationName
 0x00081010L: {
@@ -12014,7 +12019,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -12033,6 +12037,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -12066,12 +12071,13 @@ iesbyattribute={
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -12110,7 +12116,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -12130,7 +12135,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -12139,33 +12144,33 @@ iesbyattribute={
 },
 # BeamTaskSequence
 0x00741020L: {
- None: ['Plan'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Plan'],
+ None: ['Plan'],
 },
 # BaselineCorrection
 0x00189067L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # GantryDetectorSlew
 0x00181121L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # PositionerPrimaryAngleIncrement
 0x00181520L: {
- None: ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScheduledStepAttributesSequence
 0x00400270L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # DataCollectionCenterPatient
 0x00189313L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RequestAttributesSequence
 0x00400275L: {
@@ -12173,12 +12178,12 @@ iesbyattribute={
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT BRACHY TREATMENT RECORD IOD': ['Series'],
- 'VIDEO ENDOSCOPIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
  'RT STRUCTURE SET IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'RT PLAN IOD': ['Series'],
@@ -12215,7 +12220,7 @@ iesbyattribute={
  'ENCAPSULATED PDF IOD': ['Series'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Series'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'VIDEO ENDOSCOPIC IMAGE IOD': ['Series'],
  'RT DOSE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Series'],
@@ -12246,7 +12251,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Series'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
@@ -12256,35 +12261,35 @@ iesbyattribute={
 },
 # MediaDisposition
 0x22000004L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # SpectroscopyData
 0x56000020L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # FlipAngle
 0x00181314L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AcquisitionDeviceTypeCodeSequence
 0x00220015L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScheduledProcessingApplicationsCodeSequence
 0x00404004L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # VisualFieldHorizontalExtent
 0x00240010L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # CommentsOnThePerformedProcedureStep
 0x00400280L: {
@@ -12330,7 +12335,6 @@ iesbyattribute={
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -12349,6 +12353,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Series'],
@@ -12377,57 +12382,57 @@ iesbyattribute={
 },
 # PerformedProcedureStepDiscontinuationReasonCodeSequence
 0x00400281L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # VerifyingObserverSequence
 0x0040A073L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ScreeningBaselineMeasured
 0x00240120L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # OutputPower
 0x00185000L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RWavePointer
 0x00286040L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PositionerSecondaryAngleIncrement
 0x00181521L: {
- None: ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ResonantNucleus
 0x00189100L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # ReconstructionTargetCenterPatient
 0x00189318L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PatientBreedDescription
 0x00102292L: {
@@ -12481,7 +12486,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -12500,6 +12504,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -12580,7 +12585,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -12599,6 +12603,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -12679,7 +12684,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -12698,6 +12702,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -12728,10 +12733,10 @@ iesbyattribute={
 },
 # EncapsulatedDocument
 0x00420011L: {
- None: ['Encapsulated Document', 'Implant Assembly'],
+ 'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
- 'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document', 'Implant Assembly'],
 },
 # ResponsiblePerson
 0x00102297L: {
@@ -12785,7 +12790,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -12804,6 +12808,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -12884,7 +12889,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -12903,6 +12907,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -12983,7 +12988,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -13002,6 +13006,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -13032,51 +13037,51 @@ iesbyattribute={
 },
 # IlluminationTypeCodeSequence
 0x00220016L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TypeOfDetectorMotion
 0x00540202L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # ScheduledProcedureStepStartDateTime
 0x00404005L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # TerminationRelativeDensityThreshold
 0x00189721L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BreastImplantPresent
 0x00281300L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RectilinearPhaseEncodeReordering
 0x00189034L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantRegulatoryDisapprovalCodeSequence
 0x006862A0L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # CalculatedDoseReferenceSequence
 0x30080070L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # ReasonForPerformedProcedureCodeSequence
 0x00401012L: {
@@ -13131,7 +13136,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -13150,6 +13154,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -13180,38 +13185,39 @@ iesbyattribute={
 },
 # OverallTemplateSpatialTolerance
 0x006862A5L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # MRAcquisitionType
 0x00180023L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfTimeSlots
 0x00540071L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # FrequencyCorrection
 0x00189101L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # OperatorIdentificationSequence
 0x00081072L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -13250,7 +13256,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -13270,7 +13275,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -13279,256 +13284,256 @@ iesbyattribute={
 },
 # FirstALineLocation
 0x00520034L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedStorageMediaSequence
 0x2200000DL: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # AcquisitionDuration
 0x00189073L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
+ 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # ImagedVolumeWidth
 0x00480001L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # ALinePixelSpacing
 0x00520014L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RadiopharmaceuticalInformationSequence
 0x00540016L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # AcquisitionStartConditionData
 0x00180074L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # MultipleCopiesFlag
 0x00404006L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # WholeBodyTechnique
 0x00181301L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ShortTermFluctuation
 0x00240075L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # HPGLDocumentSequence
 0x006862C0L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # VerticesOfThePolygonalCollimator
 0x00181720L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # PixelIntensityRelationshipSign
 0x00281041L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedOtherPlaneSequence
 0x00089410L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # GeneralPurposeScheduledProcedureStepStatus
 0x00404001L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # NominalInterval
 0x00181062L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfPhaseEncodingSteps
 0x00180089L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StructureSetLabel
 0x30060002L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # VisualFieldMeanSensitivity
 0x00240070L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # StageName
 0x00082120L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AuthorObserverSequence
 0x0040A078L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ScatterFractionFactor
 0x00541323L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TextString
 0x20300020L: {
- None: ['Basic Annotation Box'],
  'BASIC ANNOTATION BOX IOD': ['Basic Annotation Box'],
+ None: ['Basic Annotation Box'],
 },
 # ImagePathFilterTypeStackCodeSequence
 0x00220018L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CorrectedLocalizedDeviationFromNormal
 0x00240079L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # PerformedProcessingApplicationsCodeSequence
 0x00404007L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # EstimatedDoseSaving
 0x00189324L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScanLength
 0x00181302L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TimeOfSecondaryCapture
 0x00181014L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # DeviationIndex
 0x00181413L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ProcedureTypeCodeSequence
 0x00760020L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # ObservationDateTime
 0x0040A032L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PrintPriority
 0x20000020L: {
- None: ['Film Session', 'Print Job'],
  'PRINT JOB IOD': ['Print Job'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session', 'Print Job'],
 },
 # DetectorLinesOfResponseUsed
 0x00541104L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # NominalScannedPixelSpacing
 0x00182010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # ReferencedFilmSessionSequence
 0x20100500L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # AxialDetectorDimension
 0x00189727L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ComponentTypesSequence
 0x00760032L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # ClinicalTrialSubjectID
 0x00120040L: {
@@ -13582,7 +13587,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -13601,6 +13605,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -13631,45 +13636,45 @@ iesbyattribute={
 },
 # LensesCodeSequence
 0x00220019L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantTemplateVersion
 0x00686221L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # ImagePathFilterPassBand
 0x00220004L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableTopLateralPosition
 0x300A012AL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IntermediatePupillaryDistance
 0x00460063L: {
- None: ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # OphthalmicPatientClinicalInformationLeftEyeSequence
 0x00240114L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # QualityControlImage
 0x00280300L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -13694,7 +13699,7 @@ iesbyattribute={
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -13705,11 +13710,11 @@ iesbyattribute={
 0x00280301L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Encapsulated Document', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -13742,7 +13747,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Encapsulated Document', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -13753,11 +13758,11 @@ iesbyattribute={
 0x00280302L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Encapsulated Document', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -13790,7 +13795,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Encapsulated Document', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -13856,7 +13861,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -13883,6 +13887,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -13916,25 +13921,25 @@ iesbyattribute={
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
 },
-# 
+# ReferencedColorPaletteInstanceUID
 0x00280304L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OphthalmicUltrasoundAxialMeasurementsTypeCodeSequence
 0x00221044L: {
- None: ['Series'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
+ None: ['Series'],
 },
 # Sensitivity
 0x00186000L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -13944,36 +13949,37 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
- 'COLOR PALETTE IOD': ['Color Palette'],
- None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ 'COLOR PALETTE IOD': ['Color Palette'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
 },
 # GridAbsorbingMaterial
 0x00187040L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # FilmSizeID
 0x20100050L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # VOILUTSequence
 0x00283010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -13984,7 +13990,6 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -13993,8 +13998,9 @@ iesbyattribute={
 0x00181082L: {
  'US IMAGE IOD': ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -14003,30 +14009,30 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # ExposureDoseSequence
 0x0040030EL: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # CommentsOnRadiationDose
 0x00400310L: {
- None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Modality Performed Procedure Step', 'Image'],
 },
 # DimensionOrganizationType
 0x00209311L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -14036,25 +14042,25 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # XRayOutput
 0x00400312L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IntervalsAcquired
 0x00181083L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -14062,27 +14068,26 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # HalfValueLayer
 0x00400314L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PresentationLUTShape
 0x20500020L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -14115,7 +14120,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -14124,22 +14129,22 @@ iesbyattribute={
 },
 # OrganDose
 0x00400316L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # VisualFieldTestReliabilityGlobalIndexSequence
 0x00240317L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # OrganExposed
 0x00400318L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContentCreatorName
 0x00700084L: {
@@ -14147,15 +14152,15 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
- 'COLOR PALETTE IOD': ['Color Palette'],
- None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ 'COLOR PALETTE IOD': ['Color Palette'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
 },
 # FiducialUID
@@ -14163,66 +14168,66 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ScanVelocity
 0x00181300L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FiducialSetSequence
 0x0070031CL: {
- None: ['Spatial Fiducials'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ None: ['Spatial Fiducials'],
 },
 # CardiacSignalSource
 0x00189085L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # BillingProcedureStepSequence
 0x00400320L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # FilmConsumptionSequence
 0x00400321L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # DoseCalibrationFactor
 0x00541322L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExposureModulationType
 0x00189323L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BillingSuppliesAndDevicesSequence
 0x00400324L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # ContentCreatorIdentificationCodeSequence
 0x00700086L: {
@@ -14230,141 +14235,141 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
- 'COLOR PALETTE IOD': ['Color Palette'],
- None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ 'COLOR PALETTE IOD': ['Color Palette'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
 },
 # GridSpacingMaterial
 0x00187041L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # SUVType
 0x00541006L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # ExposureTimeInms
 0x00189328L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EchoTrainLength
 0x00180091L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MagneticFieldStrength
 0x00180087L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # StimulusPresentationTime
 0x00240028L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DateOfSecondaryCapture
 0x00181012L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # RefractiveStateSequence
 0x0022001BL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SpacingBetweenSlices
 0x00180088L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExposureInmAs
 0x00189332L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ProjectionEponymousNameCodeSequence
 0x00185104L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EventTimerSequence
 0x00082133L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # VisualFieldTestPointSequence
 0x00240089L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ImplantTemplateGroupVersion
 0x00780024L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # PerformedSeriesSequence
 0x00400340L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # BarcodeValue
 0x22000005L: {
- None: ['Image', 'Media Creation Management'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Image', 'Media Creation Management'],
 },
 # GridThickness
 0x00187042L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # CTDIvol
 0x00189345L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CTDIPhantomTypeCodeSequence
 0x00189346L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TimeSliceVector
 0x00540100L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ServiceEpisodeID
 0x00380060L: {
@@ -14418,7 +14423,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -14438,6 +14442,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -14468,19 +14473,19 @@ iesbyattribute={
 },
 # SourceInstanceSequence
 0x00420013L: {
- None: ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document'],
 },
 # SamplesPerPixel
 0x00280002L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -14511,7 +14516,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -14520,65 +14525,65 @@ iesbyattribute={
 },
 # KeratometryRightEyeSequence
 0x00460070L: {
- None: ['Equipment'],
  'KERATOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # DerivationImplantTemplateSequence
 0x00686224L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # PartialView
 0x00281350L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PartialViewDescription
 0x00281351L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PartialViewCodeSequence
 0x00281352L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EnergyWeightingFactor
 0x00189353L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TransverseMash
 0x00541202L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # PrinterName
 0x21100030L: {
- None: ['Print Job', 'Printer'],
  'PRINT JOB IOD': ['Print Job'],
  'PRINTER IOD': ['Printer'],
+ None: ['Print Job', 'Printer'],
 },
 # OptotypePresentation
 0x00460095L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # PredecessorDocumentsSequence
 0x0040A360L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ManufacturerModelName
@@ -14633,7 +14638,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -14653,6 +14657,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -14683,18 +14688,18 @@ iesbyattribute={
 },
 # RadiationMachineName
 0x30020020L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IrradiationEventUID
 0x00083010L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -14723,27 +14728,27 @@ iesbyattribute={
 },
 # NumberOfRRIntervals
 0x00540061L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # VelocityEncodingAcquisitionSequence
 0x00189092L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedStructureSetSequence
 0x300C0060L: {
- None: ['Plan', 'Dose'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Plan', 'Dose'],
 },
 # MaximumAcrossScanDistortion
 0x00220049L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedRequestSequence
 0x0040A370L: {
@@ -14751,107 +14756,107 @@ iesbyattribute={
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
- 'BASIC TEXT SR IOD': ['Document'],
- 'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
  'X-RAY RADIATION DOSE SR IOD': ['Document'],
+ 'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['Unified Procedure Step', 'Document', 'Series', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Unified Procedure Step', 'Document', 'Series', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'COLON CAD SR IOD': ['Document'],
+ 'BASIC TEXT SR IOD': ['Document'],
 },
 # PerformedProcedureCodeSequence
 0x0040A372L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # NumberOfKSpaceTrajectories
 0x00189093L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CurrentRequestedProcedureEvidenceSequence
 0x0040A375L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document', 'Series'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document', 'Series'],
  'COLON CAD SR IOD': ['Document'],
 },
 # DoseType
 0x30040004L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # EffectiveRefractiveIndex
 0x00520004L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedImageRealWorldValueMappingSequence
 0x00409094L: {
- None: ['Image', 'Real World Value Mapping'],
  'NM IMAGE IOD': ['Image'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
+ None: ['Image', 'Real World Value Mapping'],
 },
 # ScheduledProcedureStepID
 0x00400009L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # ImplantAssemblyTemplateType
 0x0076000AL: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # FirstOrderPhaseCorrectionAngle
 0x56000010L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # MeasuredDoseReferenceSequence
 0x30080010L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # GridPitch
 0x00187044L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # BorderDensity
 0x20100100L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # PatientIdentityRemoved
 0x00120062L: {
@@ -14905,7 +14910,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -14924,6 +14928,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -14954,10 +14959,10 @@ iesbyattribute={
 },
 # ImageToEquipmentMappingMatrix
 0x00289520L: {
- None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ClinicalTrialTimePointID
 0x00120050L: {
@@ -15011,7 +15016,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -15030,6 +15034,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -15060,25 +15065,25 @@ iesbyattribute={
 },
 # PrinterConfigurationSequence
 0x2000001EL: {
- None: ['Printer Configuration'],
  'PRINTER CONFIGURATION IOD': ['Printer Configuration'],
+ None: ['Printer Configuration'],
 },
-# 
+# ImplantPartNumber
 0x00221097L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # BeamLimitingDeviceAngle
 0x300A0120L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # WindowCenter
 0x00281050L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'PET IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
@@ -15096,17 +15101,17 @@ iesbyattribute={
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
 },
 # XRayTubeCurrentInuA
 0x00188151L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # HL7StructuredDocumentReferenceSequence
@@ -15168,7 +15173,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -15195,6 +15199,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -15230,150 +15235,150 @@ iesbyattribute={
 },
 # GeneratorID
 0x00181005L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OphthalmicPatientClinicalInformationRightEyeSequence
 0x00240115L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # RTImagePosition
 0x30020012L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImageDisplayFormat
 0x20100010L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # IonToleranceTableSequence
 0x300A03A0L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # IonBeamSequence
 0x300A03A2L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # VisualFieldTestNormalsFlag
 0x00240063L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DetectorTemperature
 0x00187001L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # EmptyImageDensity
 0x20100110L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # ImplantTypeCodeSequence
 0x006863A8L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # CineRate
 0x00180040L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # RelevantInformationSequence
 0x00404022L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # VisualFieldShape
 0x00240012L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # FixationMethodCodeSequence
 0x006863ACL: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # StorageMediaFileSetID
 0x00880130L: {
- None: ['Media Creation Management', 'Storage Commitment'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
+ None: ['Media Creation Management', 'Storage Commitment'],
 },
 # MatingFeatureSetsSequence
 0x006863B0L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # PixelBandwidth
 0x00180095L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BeatRejectionFlag
 0x00181080L: {
+ None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
 },
 # VisualAcuityRightEyeSequence
 0x00460122L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # GridAspectRatio
 0x00187046L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # BackgroundLuminance
 0x00240020L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # SegmentationType
 0x00620001L: {
- None: ['Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
+ None: ['Segmentation'],
 },
 # ConversionType
 0x00080064L: {
  'SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Equipment'],
  'ENCAPSULATED PDF IOD': ['Equipment'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  None: ['Equipment', 'Image'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Equipment'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Equipment'],
@@ -15381,18 +15386,18 @@ iesbyattribute={
 },
 # TransactionUID
 0x00081195L: {
- None: ['Storage Commitment'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
+ None: ['Storage Commitment'],
 },
 # ResultsNormalsSequence
 0x00240064L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ImageSetsSequence
 0x00720020L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # NameOfPhysiciansReadingStudy
 0x00081060L: {
@@ -15446,7 +15451,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -15465,6 +15469,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -15495,19 +15500,19 @@ iesbyattribute={
 },
 # RTPlanLabel
 0x300A0002L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ImagesInAcquisition
 0x00201002L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -15536,69 +15541,69 @@ iesbyattribute={
 },
 # AngioFlag
 0x00180025L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PerformedStationName
 0x00400242L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # DeadTimeCorrected
 0x00189761L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfSurfaces
 0x00660001L: {
- None: ['Surface', 'Surface Mesh'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Surface Mesh'],
+ None: ['Surface', 'Surface Mesh'],
 },
 # PatientSetupSequence
 0x300A0180L: {
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Plan'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT PLAN IOD': ['Plan'],
- None: ['Treatment Record', 'Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
 },
 # AnnotationPosition
 0x20300010L: {
- None: ['Basic Annotation Box'],
  'BASIC ANNOTATION BOX IOD': ['Basic Annotation Box'],
+ None: ['Basic Annotation Box'],
 },
 # ScheduledHumanPerformersSequence
 0x00404034L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # AgeCorrectedSensitivityDeviationAlgorithmSequence
 0x00240065L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # FieldOfViewOrigin
 0x00187030L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # SamplesPerPixelUsed
 0x00280003L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # KeratometryLeftEyeSequence
 0x00460071L: {
- None: ['Equipment'],
  'KERATOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # IssuerOfPatientID
 0x00100021L: {
@@ -15655,7 +15660,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -15676,6 +15680,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -15707,75 +15712,75 @@ iesbyattribute={
 },
 # ScheduledProcedureStepModificationDateTime
 0x00404010L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # StructuredDisplayBackgroundCIELabValue
 0x00720420L: {
- None: ['Presentation State'],
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # DepthOfScanField
 0x00185050L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RTImageName
 0x30020003L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CalciumScoringMassFactorDevice
 0x00189352L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ViewingDistanceType
 0x00460125L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # GeneralPurposeScheduledProcedureStepPriority
 0x00404003L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # ScheduledProcedureStepPriority
 0x00741200L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # ImagedVolumeDepth
 0x00480003L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # StructureSetName
 0x30060004L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # GridPeriod
 0x00187048L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # FrameNumbersOfInterest
 0x00286020L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
@@ -15783,29 +15788,29 @@ iesbyattribute={
 0x00187004L: {
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DoseReferenceSequence
 0x300A0010L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # AcquisitionDeviceProcessingDescription
 0x00181400L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -15813,6 +15818,7 @@ iesbyattribute={
 # SynchronizationFrameOfReferenceUID
 0x00200200L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -15834,35 +15840,34 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # CassetteOrientation
 0x00181402L: {
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedFractionGroupNumber
 0x300C0022L: {
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Rt Ion Machine Verification', 'Rt Conventional Machine Verification', 'Image'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
- None: ['Treatment Record', 'Rt Ion Machine Verification', 'Rt Conventional Machine Verification', 'Image'],
  'RT IMAGE IOD': ['Image'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
 },
 # ExposuresOnPlate
 0x00181404L: {
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RelativeXRayExposure
 0x00181405L: {
- None: ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'CR IMAGE IOD': ['Image'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'CR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TimeOfLastCalibration
 0x00181201L: {
@@ -15916,7 +15921,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -15936,6 +15940,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -15966,38 +15971,38 @@ iesbyattribute={
 },
 # RotationVector
 0x00540050L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EnhancedPaletteColorLookupTableSequence
 0x0028140BL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # BlendingLUT2Sequence
 0x0028140CL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # PixelSpacingCalibrationType
 0x00280A02L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'CR IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # DVHSequence
 0x30040050L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # SOPInstanceStatus
 0x01000410L: {
@@ -16058,7 +16063,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -16085,6 +16089,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -16120,25 +16125,25 @@ iesbyattribute={
 },
 # ExposureIndex
 0x00181411L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # TargetExposureIndex
 0x00181412L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -16146,11 +16151,11 @@ iesbyattribute={
 0x00281203L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -16184,7 +16189,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -16195,24 +16200,24 @@ iesbyattribute={
 0x00540414L: {
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'NM IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
 },
 # Columns
 0x00280011L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -16244,7 +16249,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -16255,14 +16260,13 @@ iesbyattribute={
 0x00880200L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'COMPREHENSIVE SR IOD': ['Document'],
+ None: ['Presentation State', 'Image', 'Document', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -16275,17 +16279,18 @@ iesbyattribute={
  'BASIC TEXT SR IOD': ['Document'],
  'NM IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
+ 'COMPREHENSIVE SR IOD': ['Document'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
- 'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
+ 'CHEST CAD SR IOD': ['Document'],
  'PET IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'CHEST CAD SR IOD': ['Document'],
+ 'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -16301,7 +16306,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Presentation State', 'Image', 'Document', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -16310,57 +16315,57 @@ iesbyattribute={
 },
 # AttenuationCorrected
 0x00189759L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ProcedureStepLabel
 0x00741204L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # ReferencedSegmentNumber
 0x0062000BL: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # GeneralizedDefectSensitivityDeviationAlgorithmSequence
 0x00240067L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DetectorConfiguration
 0x00187005L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PixelPresentation
 0x00089205L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
- 'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
- 'ENHANCED PET IMAGE IOD': ['Image'],
  None: ['Image'],
+ 'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ 'ENHANCED CT IMAGE IOD': ['Image'],
+ 'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
- 'ENHANCED CT IMAGE IOD': ['Image'],
+ 'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # SOPAuthorizationDateTime
 0x01000420L: {
@@ -16421,7 +16426,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -16448,6 +16452,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -16483,23 +16488,23 @@ iesbyattribute={
 },
 # EmptyImageBoxCIELabValue
 0x00720421L: {
- None: ['Presentation State'],
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # FrameTime
 0x00181063L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
@@ -16563,7 +16568,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -16590,6 +16594,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -16625,11 +16630,11 @@ iesbyattribute={
 },
 # TreatmentMachineSequence
 0x300A0206L: {
- None: ['Treatment Record', 'Plan'],
- 'RT PLAN IOD': ['Plan'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ 'RT PLAN IOD': ['Plan'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Plan'],
 },
 # AuthorizationEquipmentCertificationNumber
 0x01000426L: {
@@ -16690,7 +16695,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -16717,6 +16721,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -16752,128 +16757,128 @@ iesbyattribute={
 },
 # GridID
 0x00181006L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # IntensifierActiveDimensions
 0x00189428L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PhysicalDetectorSize
 0x00189429L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImagePathFilterPassThroughWavelength
 0x00220003L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # LensDescription
 0x00460012L: {
- None: ['Equipment'],
  'LENSOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # TableHeight
 0x00181130L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PositionOfIsocenterProjection
 0x00189430L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ComplexImageComponent
 0x00089208L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # CorrectedLocalizedDeviationFromNormalProbabilityCalculated
 0x00240080L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # AllowMediaSplitting
 0x22000007L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # DetectorDescription
 0x00187006L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # InversionTime
 0x00180082L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # XRayTubeCurrentInmA
 0x00189330L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DeformableRegistrationSequence
 0x00640002L: {
- None: ['Deformable Registration'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
+ None: ['Deformable Registration'],
 },
 # CardiacFramingType
 0x00181064L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Series'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Series'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # OCTOpticalCenterWavelength
 0x00520007L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IntensifierActiveShape
 0x00189427L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MediumType
 0x20000030L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # OtherPupillaryDistance
 0x00460064L: {
- None: ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # SoftwareVersions
 0x00181020L: {
@@ -16927,7 +16932,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -16947,6 +16951,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -16979,119 +16984,119 @@ iesbyattribute={
 0x300C0002L: {
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Plan'],
+ None: ['Treatment Record', 'Rt Ion Machine Verification', 'Plan', 'Rt Conventional Machine Verification', 'Dose', 'Image'],
  'RT DOSE IOD': ['Dose'],
  'RT ION MACHINE VERIFICATION IOD': ['Rt Ion Machine Verification'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
- 'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT PLAN IOD': ['Plan'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
- None: ['Treatment Record', 'Rt Ion Machine Verification', 'Plan', 'Rt Conventional Machine Verification', 'Dose', 'Image'],
+ 'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
  'RT IMAGE IOD': ['Image'],
  'RT ION PLAN IOD': ['Plan'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
 },
 # FilmDestination
 0x20000040L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # DetectorPrimaryAngle
 0x00181530L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ColumnAngulation
 0x00181450L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
- 'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TreatmentStatusComment
 0x30080202L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # FrameLabelVector
 0x00182002L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # RotationDirection
 0x00181140L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PlaneIdentification
 0x00189457L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FrameDisplaySequence
 0x00089458L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CountLossNormalizationCorrected
 0x00189764L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExecutionStatus
 0x21000020L: {
- None: ['Print Job', 'Media Creation Management'],
  'PRINT JOB IOD': ['Print Job'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Print Job', 'Media Creation Management'],
 },
 # OCTFocalDistance
 0x00520002L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StimulusArea
 0x00240025L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # RandomsCorrected
 0x00189765L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TomoLayerHeight
 0x00181460L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # RTPlanName
 0x300A0003L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # StructureSetROISequence
 0x30060020L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # PatientSizeCodeSequence
 0x00101021L: {
@@ -17144,7 +17149,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -17163,6 +17167,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -17193,136 +17198,136 @@ iesbyattribute={
 },
 # TransducerData
 0x00185010L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReplacedImplantTemplateGroupSequence
 0x00780026L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # SensitivityCalibrated
 0x00189767L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MagnificationType
 0x20100060L: {
- None: ['Basic Film Box', 'Basic Image Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Film Box', 'Basic Image Box'],
 },
 # TomoAngle
 0x00181470L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # FrameDisplayShutterSequence
 0x00189472L: {
- None: ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # AcquiredImageAreaDoseProduct
 0x00189473L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CArmPositionerTabletopRelationship
 0x00189474L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorMode
 0x00187008L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ReplacedImplantAssemblyTemplateSequence
 0x00760008L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # StimulusColorCodeSequence
 0x00240021L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # InterventionDrugInformationSequence
 0x00180026L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # ResultingGeneralPurposePerformedProcedureStepsSequence
 0x00404015L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # PrimaryPromptsCountsAccumulated
 0x00541310L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # WaterReferencedPhaseCorrection
 0x00189199L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # TableSpeed
 0x00189309L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RTDoseROISequence
 0x30040010L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # ReferencedSOPSequence
 0x00081199L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
- 'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document', 'Media Creation Management', 'Storage Commitment'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document', 'Media Creation Management', 'Storage Commitment'],
  'COLON CAD SR IOD': ['Document'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
 },
 # AxialLengthOfTheEye
 0x00220030L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScanOptions
 0x00180022L: {
- 'XRF IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ValueType
@@ -17330,50 +17335,50 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # AxialMash
 0x00541201L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # UID
 0x0040A124L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # RequestedDecimateCropBehavior
 0x20200040L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # TomoType
 0x00181490L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # CompletionFlag
@@ -17381,14 +17386,14 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # CompletionFlagDescription
@@ -17396,14 +17401,14 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # VerificationFlag
@@ -17416,20 +17421,20 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document', 'Encapsulated Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document', 'Encapsulated Document'],
  'COLON CAD SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
 },
 # NumberOfTomosynthesisSourceImages
 0x00181495L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # DateOfLastCalibration
@@ -17484,7 +17489,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -17504,6 +17508,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -17534,93 +17539,93 @@ iesbyattribute={
 },
 # PresentationLUTSequence
 0x20500010L: {
- None: ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # ReferencedGeneralPurposeScheduledProcedureStepSequence
 0x00404016L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # SecondaryCountsAccumulated
 0x00541311L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfRotations
 0x00540051L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FocusDepth
 0x00185012L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DoseComment
 0x30040006L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # DataPointRows
 0x00289001L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ScanningSequence
 0x00180020L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OriginalImplantAssemblyTemplateSequence
 0x0076000CL: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # ExtendedDepthOfField
 0x00480012L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # DocumentTitle
 0x00420010L: {
- None: ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document'],
 },
 # EventElapsedTimes
 0x00082130L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OutputInformationSequence
 0x00404033L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # DetectorID
 0x0018700AL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # RedPaletteColorLookupTableData
 0x00281201L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -17654,7 +17659,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -17666,103 +17671,104 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # AcquisitionProtocolDescription
 0x00189424L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PatientSupportAngle
 0x300A0122L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # InPlanePhaseEncodingDirection
 0x00181312L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MultiPlanarExcitation
 0x00189012L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedSamplePositions
 0x0040A132L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # VerticesOfThePolygonalShutter
 0x00181620L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DataPointColumns
 0x00289002L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ExposureSequence
 0x30020030L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DigitizingDeviceTransportDirection
 0x00182020L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BackgroundColor
 0x00460092L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # CorrectedLocalizedDeviationFromNormalProbability
 0x00240081L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ApprovalStatus
 0x300E0002L: {
- None: ['Structure Set', 'Plan', 'Image'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Structure Set', 'Plan', 'Image'],
 },
 # DimensionIndexSequence
 0x00209222L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -17772,58 +17778,57 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # IncludeNonDICOMObjects
 0x22000008L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # WorklistLabel
 0x00741202L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # ImplantType
 0x00686223L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # FractionNumber
 0x30020029L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScheduledWorkitemCodeSequence
 0x00404018L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # TissueHeterogeneityCorrection
 0x30040014L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # PhaseInformationSequence
 0x00540032L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OriginalImplantTemplateSequence
 0x00686225L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # SignalDomainColumns
 0x00289003L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # StudyDate
 0x00080020L: {
@@ -17877,7 +17882,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -17896,6 +17900,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -17928,6 +17933,7 @@ iesbyattribute={
 # RepresentativeFrameNumber
 0x00286010L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
@@ -17946,66 +17952,65 @@ iesbyattribute={
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # FilterMaterial
 0x00187050L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # FramePrimaryAngleVector
 0x00182003L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorManufacturerModelName
 0x0018702BL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DateOfLastDetectorCalibration
 0x0018700CL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PlanningLandmarkPlaneSequence
 0x00686520L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # DetectorElementSize
 0x00541203L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # PrimaryAnatomicStructureSequence
 0x00082228L: {
+ None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -18029,58 +18034,58 @@ iesbyattribute={
 },
 # ImplantTemplateGroupMembersSequence
 0x0078002AL: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # PatientEyeMovementCommandCodeSequence
 0x00220006L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AxialAcceptance
 0x00541200L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # RTPlanDescription
 0x300A0004L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # TerminationRespiratoryTriggerCountThreshold
 0x00189724L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FocusMethod
 0x00480011L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # SliceProgressionDirection
 0x00540500L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CreationDate
 0x21000040L: {
- None: ['Print Job'],
  'PRINT JOB IOD': ['Print Job'],
+ None: ['Print Job'],
 },
 # ContentQualification
 0x00189004L: {
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18144,7 +18149,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -18171,6 +18175,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -18206,102 +18211,102 @@ iesbyattribute={
 },
 # RTImageOrientation
 0x30020010L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IncludeDisplayApplication
 0x22000009L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # SequenceOfUltrasoundRegions
 0x00186011L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MultiFramePresentationSequence
 0x00289505L: {
- None: ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # ContributingSourcesSequence
 0x00189506L: {
- None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # XRay3DAcquisitionSequence
 0x00189507L: {
- None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PositionerType
 0x00181508L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # SliceThickness
 0x00180050L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
  'NM IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'PET IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
- None: ['Image', 'Dose'],
 },
 # VisualAcuityBothEyesOpenSequence
 0x00460124L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # FieldOfViewRotation
 0x00187032L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # PositionMeasuringDeviceUsed
 0x0018980CL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # SourceToReferenceObjectDistance
 0x30020028L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedImageBoxSequence
 0x20100510L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # PositionerSecondaryAngle
 0x00181511L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContainerIdentifier
 0x00400512L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18330,7 +18335,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18340,10 +18345,10 @@ iesbyattribute={
 0x00400513L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18372,7 +18377,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18380,17 +18385,17 @@ iesbyattribute={
 },
 # VariableFlipAngleFlag
 0x00181315L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AlternateContainerIdentifierSequence
 0x00400515L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18419,7 +18424,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18427,17 +18432,17 @@ iesbyattribute={
 },
 # CardiacNumberOfImages
 0x00181090L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContainerTypeCodeSequence
 0x00400518L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18466,7 +18471,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18476,10 +18481,10 @@ iesbyattribute={
 0x0040051AL: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18508,7 +18513,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18516,38 +18521,38 @@ iesbyattribute={
 },
 # PulseSequenceName
 0x00189005L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReportedValuesOrigin
 0x3002000AL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PertinentOtherEvidenceSequence
 0x0040A385L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ContainerComponentSequence
 0x00400520L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -18576,7 +18581,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -18584,38 +18589,38 @@ iesbyattribute={
 },
 # ApplicationSetupSequence
 0x300A0230L: {
- None: ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # StructureSetDescription
 0x30060006L: {
- None: ['Structure Set', 'Dose'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Structure Set', 'Dose'],
 },
 # FilterThicknessMinimum
 0x00187052L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # IdenticalDocumentsSequence
 0x0040A525L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Series', 'Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document', 'Series'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document', 'Series'],
  'COLON CAD SR IOD': ['Document'],
 },
 # Manufacturer
@@ -18670,7 +18675,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment', 'Printer', 'Implant Template'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -18690,6 +18694,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment', 'Printer', 'Implant Template'],
  'PROCEDURE LOG IOD': ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
@@ -18722,44 +18727,44 @@ iesbyattribute={
 # DistanceSourceToDetector
 0x00181110L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Modality Performed Procedure Step'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ImagedVolumeHeight
 0x00480002L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # CreationTime
 0x21000050L: {
- None: ['Print Job'],
  'PRINT JOB IOD': ['Print Job'],
+ None: ['Print Job'],
 },
 # XRay3DReconstructionSequence
 0x00189530L: {
- None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorSecondaryAngle
 0x00181531L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- 'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SAR
 0x00181316L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # InstitutionName
 0x00080080L: {
@@ -18813,7 +18818,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -18832,6 +18836,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -18912,7 +18917,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -18931,6 +18935,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -18961,29 +18966,29 @@ iesbyattribute={
 },
 # RotationInformationSequence
 0x00540052L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EquipmentCoordinateSystemIdentification
 0x00289537L: {
- None: ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # GraphicGroupSequence
 0x00700234L: {
- None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # ExpectedCompletionDateTime
 0x00404011L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # AccessionNumber
 0x00080050L: {
@@ -19037,7 +19042,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -19056,6 +19060,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -19086,31 +19091,31 @@ iesbyattribute={
 },
 # PatientEyeMovementCommanded
 0x00220005L: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfFocalPlanes
 0x00480013L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # PercentSampling
 0x00180093L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AcquisitionTerminationCondition
 0x00180071L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
 },
 # CommentsOnPatientPerformanceOfVisualField
 0x00240044L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # PatientSpeciesCodeSequence
 0x00102202L: {
@@ -19164,7 +19169,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -19183,6 +19187,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -19213,16 +19218,17 @@ iesbyattribute={
 },
 # CoincidenceWindowWidth
 0x00541210L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # AcquisitionContextSequence
 0x00400555L: {
+ None: ['Raw Data', 'Image', 'Waveform', 'Equipment'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -19240,7 +19246,6 @@ iesbyattribute={
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'HEMODYNAMIC IOD': ['Waveform'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  '12-LEAD ECG IOD': ['Waveform'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
@@ -19254,17 +19259,18 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Raw Data', 'Image', 'Waveform', 'Equipment'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # AcquisitionContextDescription
 0x00400556L: {
+ None: ['Raw Data', 'Image', 'Waveform', 'Equipment'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -19282,7 +19288,6 @@ iesbyattribute={
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'HEMODYNAMIC IOD': ['Waveform'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'GENERAL ECG IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  '12-LEAD ECG IOD': ['Waveform'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
@@ -19296,36 +19301,36 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Raw Data', 'Image', 'Waveform', 'Equipment'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # RightLensSequence
 0x00460014L: {
- None: ['Equipment'],
  'LENSOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ImplantTemplateGroupVariationDimensionSequence
 0x007800B0L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # TableType
 0x0018113AL: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SpecimenDescriptionSequence
 0x00400560L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
@@ -19354,7 +19359,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Raw Data', 'Equipment', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -19419,7 +19424,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -19446,6 +19450,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -19481,92 +19486,92 @@ iesbyattribute={
 },
 # FailedSOPSequence
 0x00081198L: {
- None: ['Media Creation Management', 'Storage Commitment'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
+ None: ['Media Creation Management', 'Storage Commitment'],
 },
 # EffectiveDuration
 0x00180072L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # ExposuresOnDetectorSinceLastCalibration
 0x00187010L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # BarcodeSymbology
 0x22000006L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # BasicGrayscaleImageSequence
 0x20200110L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # RRIntervalVector
 0x00540060L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StartDensityThreshold
 0x00189715L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImagePositionPatient
 0x00200032L: {
- None: ['Image', 'Dose'],
  'MR IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'PET IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
 },
 # TotalTimeOfFluoroscopy
 0x00400300L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # EchoPulseSequence
 0x00189008L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PerformedProcedureStepEndDate
 0x00400250L: {
- None: ['Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
 },
 # VisualAcuityTypeCodeSequence
 0x00460121L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # TreatmentSessionIonBeamSequence
 0x30080021L: {
- None: ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # PatientName
 0x00100010L: {
@@ -19622,7 +19627,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -19642,6 +19646,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -19674,54 +19679,55 @@ iesbyattribute={
 # WaveformPresentationGroupSequence
 0x003A0240L: {
  'RESPIRATORY WAVEFORM IOD': ['Waveform'],
+ None: ['Waveform'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'HEMODYNAMIC IOD': ['Waveform'],
- '12-LEAD ECG IOD': ['Waveform'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Waveform'],
- 'GENERAL ECG IOD': ['Waveform'],
+ '12-LEAD ECG IOD': ['Waveform'],
 },
 # AcquisitionStartCondition
 0x00180073L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # ExposuresOnDetectorSinceManufactured
 0x00187011L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PerformedStationAETitle
 0x00400241L: {
- None: ['Modality Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step'],
 },
 # TableTopEccentricAxisDistance
 0x300A0124L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TerminationDensityThreshold
 0x00189720L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SOPInstanceUIDOfConcatenationSource
 0x00200242L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Segmentation'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
@@ -19731,48 +19737,48 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
- None: ['Image', 'Equipment', 'Segmentation'],
+ 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
- 'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # TableTopPitchAngle
 0x300A0140L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CollimatorGridName
 0x00181180L: {
- None: ['Series'],
  'CR IMAGE IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # CountRate
 0x00181243L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantTemplateGroupTargetAnatomySequence
 0x00780028L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # RequestedImageSize
 0x20200030L: {
- None: ['Basic Image Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Image Box'],
 },
 # PerformedProcedureStepEndTime
 0x00400251L: {
- None: ['Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['Modality Performed Procedure Step', 'General Purpose Performed Procedure Step'],
 },
 # PreferredPlaybackSequencing
 0x00181244L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image'],
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
@@ -19780,49 +19786,48 @@ iesbyattribute={
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # TreatmentSessionBeamSequence
 0x30080020L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # FilterBeamPathLengthMinimum
 0x00187056L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
 },
 # IlluminationPower
 0x00220056L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorTimeSinceLastExposure
 0x00187012L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # TotalPixelMatrixColumns
 0x00480006L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # ClinicalTrialSiteID
 0x00120030L: {
@@ -19876,7 +19881,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -19895,6 +19899,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -19929,12 +19934,12 @@ iesbyattribute={
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT BRACHY TREATMENT RECORD IOD': ['Series'],
- 'VIDEO ENDOSCOPIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
  'RT STRUCTURE SET IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'RT PLAN IOD': ['Series'],
@@ -19971,7 +19976,7 @@ iesbyattribute={
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
  'RT BEAMS DELIVERY INSTRUCTION IOD': ['Series'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'VIDEO ENDOSCOPIC IMAGE IOD': ['Series'],
  'RT DOSE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Series'],
@@ -20000,7 +20005,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Series'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
@@ -20011,6 +20016,7 @@ iesbyattribute={
 # ContrastBolusAgent
 0x00180010L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -20018,138 +20024,138 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # CollimatorType
 0x00181181L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # CountsSource
 0x00541002L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # RadiationMachineSSD
 0x30020024L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AcquisitionTerminationConditionData
 0x00180075L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # ImageID
 0x00540400L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MaterialsCodeSequence
 0x006863A0L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # DistanceBetweenFocalPlanes
 0x00480014L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfPhases
 0x00540031L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SegmentationFractionalType
 0x00620010L: {
- None: ['Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
+ None: ['Segmentation'],
 },
 # RandomsCorrectionMethod
 0x00541100L: {
- None: ['Series', 'Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series', 'Image'],
 },
 # NormalizationPoint
 0x30040008L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # StorageMediaFileSetUID
 0x00880140L: {
- None: ['Media Creation Management', 'Storage Commitment'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
+ None: ['Media Creation Management', 'Storage Commitment'],
 },
 # DerivationImplantAssemblyTemplateSequence
 0x0076000EL: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # DegreeOfDilation
 0x0022000EL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # InformationFromManufacturerSequence
 0x00686260L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # UltrasoundColorDataPresent
 0x00280014L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SubjectiveRefractionRightEyeSequence
 0x00460097L: {
- None: ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # CoatingMaterialsCodeSequence
 0x006863A4L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # DataFrameAssignmentSequence
 0x00281401L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorActiveTime
 0x00187014L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # VisualFieldGlobalResultsIndexSequence
 0x00240320L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # RelatedSeriesSequence
 0x00081250L: {
  'BASIC STRUCTURED DISPLAY IOD': ['Series'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Series'],
  'VL PHOTOGRAPHIC IMAGE IOD': ['Series'],
- 'SC IMAGE IOD': ['Series'],
+ None: ['Series'],
  'SEGMENTATION IOD': ['Series'],
  'BASIC VOICE AUDIO IOD': ['Series'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Series'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
+ 'SC IMAGE IOD': ['Series'],
+ 'GENERAL ECG IOD': ['Series'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Series'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
  'DIGITAL X-RAY IMAGE IOD': ['Series'],
@@ -20188,7 +20194,6 @@ iesbyattribute={
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Series'],
  'US IMAGE IOD': ['Series'],
- 'GENERAL ECG IOD': ['Series'],
  'AMBULATORY ECG IOD': ['Series'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Series'],
  '12-LEAD ECG IOD': ['Series'],
@@ -20208,7 +20213,7 @@ iesbyattribute={
  'ENHANCED X-RAY RF IMAGE IOD': ['Series'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Series'],
  'INTRAOCULAR LENS CALCULATIONS IOD': ['Series'],
- None: ['Series'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Series'],
  'VL ENDOSCOPIC IMAGE IOD': ['Series'],
  'KERATOMETRY MEASUREMENTS IOD': ['Series'],
@@ -20219,11 +20224,11 @@ iesbyattribute={
 0x00080032L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20252,119 +20257,119 @@ iesbyattribute={
 },
 # CTAdditionalXRaySourceSequence
 0x00189360L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # InputInformationSequence
 0x00404021L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # TreatmentTime
 0x30080251L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # RetrieveAETitle
 0x00080054L: {
- None: ['Storage Commitment'],
  'STORAGE COMMITMENT IOD': ['Storage Commitment'],
+ None: ['Storage Commitment'],
 },
 # LeftLensSequence
 0x00460015L: {
- None: ['Equipment'],
  'LENSOMETRY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ComponentAssemblySequence
 0x00760060L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # SourceSequence
 0x300A0210L: {
- None: ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # ReviewDate
 0x300E0004L: {
- None: ['Structure Set', 'Plan', 'Image'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Structure Set', 'Plan', 'Image'],
 },
 # ReceiveCoilName
 0x00181250L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorInformationSequence
 0x00540022L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PreserveCompositeInstancesAfterMediaCreation
 0x2200000AL: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # HangingProtocolUserGroupName
 0x00720010L: {
- None: ['Hanging Protocol'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
+ None: ['Hanging Protocol'],
 },
 # ShutterShape
 0x00181600L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # NumberOfScreens
 0x00720100L: {
- None: ['Hanging Protocol', 'Presentation State'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
+ None: ['Hanging Protocol', 'Presentation State'],
 },
 # ShutterLeftVerticalEdge
 0x00181602L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ScreeningTestModeCodeSequence
 0x00240016L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ShutterRightVerticalEdge
 0x00181604L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -20372,12 +20377,12 @@ iesbyattribute={
 0x00181606L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -20385,11 +20390,11 @@ iesbyattribute={
 0x00281101L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20423,7 +20428,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -20434,12 +20439,12 @@ iesbyattribute={
 0x00181608L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -20447,11 +20452,11 @@ iesbyattribute={
 0x00281102L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20485,7 +20490,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -20494,14 +20499,15 @@ iesbyattribute={
 },
 # RecordedSourceSequence
 0x30080100L: {
- None: ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # IntervalsRejected
 0x00181084L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -20509,7 +20515,6 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -20518,11 +20523,11 @@ iesbyattribute={
 0x00080022L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20553,12 +20558,12 @@ iesbyattribute={
 0x00181612L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -20566,11 +20571,11 @@ iesbyattribute={
 0x00281103L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20604,7 +20609,7 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
- None: ['Image', 'Color Palette', 'Presentation State', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -20613,50 +20618,50 @@ iesbyattribute={
 },
 # Originator
 0x21000070L: {
- None: ['Print Job'],
  'PRINT JOB IOD': ['Print Job'],
+ None: ['Print Job'],
 },
 # TransmitCoilName
 0x00181251L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContentTemplateSequence
 0x0040A504L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # DetectorActivationOffsetFromExposure
 0x00187016L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # PrinterStatus
 0x21100010L: {
- None: ['Printer'],
  'PRINTER IOD': ['Printer'],
+ None: ['Printer'],
 },
 # OpticalPathSequence
 0x00480105L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'VL SLIDE-COORDINATES MICROSCOPIC IMAGE IOD': ['Image'],
  'VL MICROSCOPIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ClinicalTrialSponsorName
 0x00120010L: {
@@ -20710,7 +20715,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -20729,6 +20733,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -20762,34 +20767,34 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ShutterOverlayGroup
 0x00181623L: {
- None: ['Presentation State'],
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # ShutterPresentationColorCIELabValue
 0x00181624L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
@@ -20797,11 +20802,11 @@ iesbyattribute={
 0x00280106L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -20832,7 +20837,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -20891,7 +20896,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -20910,6 +20914,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -20940,22 +20945,23 @@ iesbyattribute={
 },
 # FluenceMapSequence
 0x30020040L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BlindSpotXCoordinate
 0x00240107L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # NumberOfTimeSlices
 0x00540101L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # ContrastBolusRoute
 0x00181040L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -20963,66 +20969,65 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ReferencedFilmBoxSequence
 0x20000500L: {
- None: ['Film Session'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session'],
 },
 # RepetitionTime
 0x00180080L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DataRepresentation
 0x00289108L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ImplantAssemblyTemplateName
 0x00760001L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # ListOfMIMETypes
 0x00420014L: {
- None: ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document'],
 },
 # BackgroundIlluminationColorCodeSequence
 0x00240024L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DepthSpatialResolution
 0x00220035L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DecouplingMethod
 0x00189062L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ImageIndex
 0x00541330L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PlateType
 0x00181260L: {
- None: ['Series'],
  'CR IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # ImplantTemplateGroupIssuer
 0x00780020L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # StudyTime
 0x00080030L: {
@@ -21076,7 +21081,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -21095,6 +21099,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -21126,127 +21131,127 @@ iesbyattribute={
 },
 # ProcessingFunction
 0x00185020L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RTImagePlane
 0x3002000CL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RWaveTimeVector
 0x00186060L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NominalScreenDefinitionSequence
 0x00720102L: {
- None: ['Hanging Protocol', 'Presentation State'],
  'HANGING PROTOCOL IOD': ['Hanging Protocol'],
  'BASIC STRUCTURED DISPLAY IOD': ['Presentation State'],
+ None: ['Hanging Protocol', 'Presentation State'],
 },
 # SliceSensitivityFactor
 0x00541320L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TransducerGeometryCodeSequence
 0x0018980DL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # TomoClass
 0x00181491L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # SoftcopyVOILUTSequence
 0x00283110L: {
- None: ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
 },
 # TextValue
 0x0040A160L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ConvolutionKernel
 0x00181210L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
+ 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'CT IMAGE IOD': ['Image'],
- 'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image', 'Series'],
 },
 # EntranceDoseInmGy
 0x00408302L: {
- None: ['Modality Performed Procedure Step', 'Image'],
  'MODALITY PERFORMED PROCEDURE STEP IOD': ['Modality Performed Procedure Step'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Modality Performed Procedure Step', 'Image'],
 },
 # MaximumDepthDistortion
 0x00220036L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RegistrationSequence
 0x00700308L: {
- None: ['Spatial Registration'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
+ None: ['Spatial Registration'],
 },
 # ScheduledStationNameCodeSequence
 0x00404025L: {
- None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
- 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ 'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['Unified Procedure Step', 'General Purpose Scheduled Procedure Step'],
 },
 # InputAvailabilityFlag
 0x00404020L: {
- None: ['General Purpose Scheduled Procedure Step'],
  'GENERAL PURPOSE SCHEDULED PROCEDURE STEP IOD': ['General Purpose Scheduled Procedure Step'],
+ None: ['General Purpose Scheduled Procedure Step'],
 },
 # NotificationFromManufacturerSequence
 0x00686265L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # VolumeLocalizationTechnique
 0x00189054L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # LossyImageCompression
 0x00282110L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -21277,7 +21282,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -21286,8 +21291,8 @@ iesbyattribute={
 },
 # VisualAcuityLeftEyeSequence
 0x00460123L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # ReferencedPerformedProcedureStepSequence
 0x00081111L: {
@@ -21340,7 +21345,6 @@ iesbyattribute={
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Series'],
  'COMPREHENSIVE SR IOD': ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
- None: ['Series', 'Instance Availability Notification', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Series'],
  'RT ION PLAN IOD': ['Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Series'],
@@ -21360,6 +21364,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Series'],
  'RT IMAGE IOD': ['Series'],
  'SC IMAGE IOD': ['Series'],
+ None: ['Series', 'Instance Availability Notification', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Series'],
  'PET IMAGE IOD': ['Series'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Series'],
@@ -21394,36 +21399,36 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # TransducerBeamSteeringCodeSequence
 0x0018980EL: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantTemplateGroupDescription
 0x00780010L: {
- None: ['Implant Template Group'],
  'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # LossyImageCompressionRatio
 0x00282112L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -21454,7 +21459,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -21463,293 +21468,293 @@ iesbyattribute={
 },
 # KVP
 0x00180060L: {
- 'XRF IMAGE IOD': ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # CurrentTreatmentStatus
 0x30080200L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # FixationSequence
 0x00240032L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # CardiacRRIntervalSpecified
 0x00189070L: {
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # ScheduledProcessingParametersSequence
 0x00741210L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # CalibrationImage
 0x00500004L: {
- 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
+ 'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # EstimatedRadiographicMagnificationFactor
 0x00181114L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # EmmetropicMagnification
 0x0022000AL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DecayFactor
 0x00541321L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EnergyWindowVector
 0x00540010L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantTemplate3DModelSurfaceNumber
 0x00686350L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # AcrossScanSpatialResolution
 0x00220048L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MechanicalIndex
 0x00185022L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MultipleSpinEcho
 0x00189011L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PlanesInAcquisition
 0x00189410L: {
- None: ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # HorizontalFieldOfView
 0x0022000CL: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReconstructionDiameter
 0x00181100L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'MR IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image', 'Series'],
 },
 # TotalNumberOfPiecesOfMediaCreated
 0x2200000BL: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # DetectorBinning
 0x0018701AL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ALineRate
 0x00520011L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CenterOfCircularShutter
 0x00181610L: {
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Image', 'Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Presentation State'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # NumberOfVisualStimuli
 0x00240038L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # AcquisitionMatrix
 0x00181310L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # GatedInformationSequence
 0x00540062L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DepthsOfFocus
 0x00189801L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantAssemblyTemplateVersion
 0x00760006L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # SignalDomainRows
 0x00289235L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # StereoPairsSequence
 0x00220020L: {
- None: ['Stereometric Relationship'],
  'STEREOMETRIC RELATIONSHIP IOD': ['Stereometric Relationship'],
+ None: ['Stereometric Relationship'],
 },
 # SmoothingType
 0x20100080L: {
- None: ['Basic Film Box', 'Basic Image Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
  'BASIC IMAGE BOX IOD': ['Basic Image Box'],
+ None: ['Basic Film Box', 'Basic Image Box'],
 },
 # ReferencedBeamNumber
 0x300C0006L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MinimumSensitivityValue
 0x00240105L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # PVCRejection
 0x00181085L: {
- None: ['Image', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Series'],
 },
 # RotationOfScannedFilm
 0x00182030L: {
- None: ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DoseGridScaling
 0x3004000EL: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # DVHNormalizationPoint
 0x30040040L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # OCTAcquisitionDomain
 0x00520006L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AttenuationCorrectionMethod
 0x00541101L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # PositionerMotion
 0x00181500L: {
- None: ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TotalPixelMatrixOriginSequence
 0x00480008L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
-},
-# GantryAngle
-0x300A011EL: {
  None: ['Image'],
- 'RT IMAGE IOD': ['Image'],
+},
+# ImplantTemplateGroupName
+0x00780001L: {
+ 'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
+ None: ['Implant Template Group'],
 },
 # PerformedStationNameCodeSequence
 0x00404028L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # SecondaryCountsType
 0x00541220L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # CalciumScoringMassFactorPatient
 0x00189351L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedFrameOfReferenceUID
 0x30060024L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PreliminaryFlag
@@ -21757,14 +21762,14 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PixelPaddingValue
@@ -21819,7 +21824,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -21838,6 +21842,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -21868,29 +21873,29 @@ iesbyattribute={
 },
 # BlindSpotLocalized
 0x00240106L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # SurfaceSequence
 0x00660002L: {
- None: ['Surface', 'Surface Mesh'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Surface Mesh'],
+ None: ['Surface', 'Surface Mesh'],
 },
 # SpiralPitchFactor
 0x00189311L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PixelPaddingRangeLimit
 0x00280121L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -21921,7 +21926,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -21930,40 +21935,41 @@ iesbyattribute={
 },
 # ExposureControlMode
 0x00187060L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DecayCorrection
 0x00541102L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # Time
 0x0040A122L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # TimeSlotVector
 0x00540070L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfFrames
 0x00280008L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
@@ -21983,13 +21989,12 @@ iesbyattribute={
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'RT DOSE IOD': ['Dose'],
  'VIDEO MICROSCOPIC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED CT IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
@@ -22000,68 +22005,68 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # DecouplingChemicalShiftReference
 0x00189063L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # PerformedStationClassCodeSequence
 0x00404029L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # EchoNumbers
 0x00180086L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DeadTimeFactor
 0x00541324L: {
- None: ['Image'],
  'PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RTImageDescription
 0x30020004L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfStages
 0x00082124L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PhaseContrast
 0x00189014L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableTopEccentricAngle
 0x300A0125L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FieldOfViewShape
 0x00181147L: {
+ None: ['Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # PatientID
@@ -22119,7 +22124,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -22140,6 +22144,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient', 'Rt Ion Machine Verification', 'Unified Procedure Step', 'Modality Performed Procedure Step', 'Rt Conventional Machine Verification', 'General Purpose Performed Procedure Step', 'General Purpose Scheduled Procedure Step'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -22171,123 +22176,123 @@ iesbyattribute={
 },
 # ImplantSize
 0x00686210L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # RTImageSID
 0x30020026L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ViewName
 0x00082127L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # Date
 0x0040A121L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # BrachyTreatmentTechnique
 0x300A0200L: {
- None: ['Treatment Record', 'Plan'],
  'RT PLAN IOD': ['Plan'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record', 'Plan'],
 },
 # TableTopVerticalPosition
 0x300A0128L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableTopLongitudinalPosition
 0x300A0129L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfAverages
 0x00180083L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DoseSummationType
 0x3004000AL: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # PhaseVector
 0x00540030L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # BlindSpotYCoordinate
 0x00240108L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ImplantAssemblyTemplateTargetAnatomySequence
 0x00760010L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # CollimatorShape
 0x00181700L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # DecayCorrectionDateTime
 0x00189701L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CollimatorLeftVerticalEdge
 0x00181702L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # CollimatorRightVerticalEdge
 0x00181704L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # ExposureControlModeDescription
 0x00187062L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CollimatorUpperHorizontalEdge
 0x00181706L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # GraphicLayerSequence
@@ -22295,190 +22300,190 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # CollimatorLowerHorizontalEdge
 0x00181708L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # RequestedResolutionID
 0x20200050L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # RTROIObservationsSequence
 0x30060080L: {
- None: ['Structure Set'],
  'RT STRUCTURE SET IOD': ['Structure Set'],
+ None: ['Structure Set'],
 },
 # ReferencedWaveformChannels
 0x0040A0B0L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # CenterOfCircularCollimator
 0x00181710L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # IntraOcularPressure
 0x0022000BL: {
- None: ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
- 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # RadiusOfCircularCollimator
 0x00181712L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # WaveformDataDisplayScale
 0x003A0230L: {
  'RESPIRATORY WAVEFORM IOD': ['Waveform'],
+ None: ['Waveform'],
  'GENERAL AUDIO WAVEFORM IOD': ['Waveform'],
  'BASIC VOICE AUDIO IOD': ['Waveform'],
  'HEMODYNAMIC IOD': ['Waveform'],
- '12-LEAD ECG IOD': ['Waveform'],
+ 'GENERAL ECG IOD': ['Waveform'],
  'BASIC CARDIAC EP IOD': ['Waveform'],
  'AMBULATORY ECG IOD': ['Waveform'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Waveform'],
- None: ['Waveform'],
- 'GENERAL ECG IOD': ['Waveform'],
+ '12-LEAD ECG IOD': ['Waveform'],
 },
 # NumberOfEnergyWindows
 0x00540011L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StartRelativeDensityDifferenceThreshold
 0x00189716L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StartCardiacTriggerCountThreshold
 0x00189717L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # HistogramSequence
 0x00603000L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TerminationCountsThreshold
 0x00189719L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImageCenterPointCoordinatesSequence
 0x0040071AL: {
- None: ['Image'],
  'VL SLIDE-COORDINATES MICROSCOPIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MeasuredValueSequence
 0x0040A300L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PresentedDataFlag
 0x00240037L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # PatientOrientationCodeSequence
 0x00540410L: {
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'NM IMAGE IOD': ['Series'],
+ None: ['Image', 'Series'],
  'PET IMAGE IOD': ['Series'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image', 'Series'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
 },
 # FrameOfInterestType
 0x00286023L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
 },
 # TerminationTimeThreshold
 0x00189722L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TerminationCardiacTriggerCountThreshold
 0x00189723L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # HL7InstanceIdentifier
 0x0040E001L: {
- None: ['Encapsulated Document'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
+ None: ['Encapsulated Document'],
 },
 # DetectorGeometry
 0x00189725L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TransverseDetectorSeparation
 0x00189726L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableTraverse
 0x00181131L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # InstitutionAddress
 0x00080081L: {
@@ -22532,7 +22537,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Equipment'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Equipment'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Equipment'],
- None: ['Equipment'],
  'SPATIAL FIDUCIALS IOD': ['Equipment'],
  'RT ION PLAN IOD': ['Equipment'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Equipment'],
@@ -22551,6 +22555,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Equipment'],
  'RT IMAGE IOD': ['Equipment'],
  'SC IMAGE IOD': ['Equipment'],
+ None: ['Equipment'],
  'SEGMENTATION IOD': ['Equipment'],
  'PET IMAGE IOD': ['Equipment'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Equipment'],
@@ -22581,50 +22586,50 @@ iesbyattribute={
 },
 # ReferencedPresentationLUTSequence
 0x20500500L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # ALinesPerFrame
 0x00520012L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # EventTimerNames
 0x00082132L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # MaximumStimulusLuminance
 0x00240018L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ContentSequence
 0x0040A730L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # LabelUsingInformationExtractedFromInstances
 0x22000001L: {
- None: ['Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Media Creation Management'],
 },
 # DVHNormalizationDoseValue
 0x30040042L: {
- None: ['Dose'],
  'RT DOSE IOD': ['Dose'],
+ None: ['Dose'],
 },
 # ContentLabel
 0x00700080L: {
@@ -22632,28 +22637,29 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'SPATIAL REGISTRATION IOD': ['Spatial Registration'],
  'REAL WORLD VALUE MAPPING IOD': ['Real World Value Mapping'],
  'DEFORMABLE SPATIAL REGISTRATION IOD': ['Deformable Registration'],
- 'COLOR PALETTE IOD': ['Color Palette'],
- None: ['Presentation State', 'Color Palette', 'Spatial Registration', 'Spatial Fiducials', 'Surface', 'Deformable Registration', 'Segmentation', 'Real World Value Mapping'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
+ 'COLOR PALETTE IOD': ['Color Palette'],
  'SURFACE SEGMENTATION IOD': ['Surface'],
 },
 # AttenuationCorrectionSource
 0x00189738L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SkipBeats
 0x00181086L: {
+ 'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
- 'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment', 'Series'],
  'NM IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Series'],
@@ -22661,7 +22667,6 @@ iesbyattribute={
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment', 'Series'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
@@ -22671,42 +22676,42 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # NumberOfDetectors
 0x00540021L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableVerticalIncrement
 0x00181135L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ConceptCodeSequence
 0x0040A168L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PresentationCreationDate
@@ -22714,74 +22719,75 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # DetectorElementPhysicalSize
 0x00187020L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # FieldOfViewHorizontalFlip
 0x00187034L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # CassetteSize
 0x00181403L: {
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TableAngle
 0x00181138L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # SingleCollimationWidth
 0x00189306L: {
- None: ['Image'],
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExecutionStatusInfo
 0x21000030L: {
- None: ['Print Job', 'Media Creation Management'],
  'PRINT JOB IOD': ['Print Job'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
+ None: ['Print Job', 'Media Creation Management'],
 },
 # EchoPlanarPulseSequence
 0x00189018L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # OptotypeDetailedDefinition
 0x00460139L: {
- None: ['Equipment'],
  'VISUAL ACUITY MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # DecayCorrected
 0x00189758L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ContrastBolusStartTime
 0x00181042L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
@@ -22789,7 +22795,6 @@ iesbyattribute={
  'US IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -22799,43 +22804,43 @@ iesbyattribute={
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # PhototimerSetting
 0x00187065L: {
- None: ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
- 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
+ 'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ScatterCorrected
 0x00189760L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImplantAssemblyTemplateIssuer
 0x00760003L: {
- None: ['Implant Assembly'],
  'IMPLANT ASSEMBLY TEMPLATE IOD': ['Implant Assembly'],
+ None: ['Implant Assembly'],
 },
 # GantryMotionCorrected
 0x00189762L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PatientMotionCorrected
 0x00189763L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ClinicalTrialProtocolID
 0x00120020L: {
@@ -22889,7 +22894,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Patient'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Patient'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Patient'],
- None: ['Patient'],
  'SPATIAL FIDUCIALS IOD': ['Patient'],
  'RT ION PLAN IOD': ['Patient'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Patient'],
@@ -22908,6 +22912,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Patient'],
  'RT IMAGE IOD': ['Patient'],
  'SC IMAGE IOD': ['Patient'],
+ None: ['Patient'],
  'SEGMENTATION IOD': ['Patient'],
  'PET IMAGE IOD': ['Patient'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Patient'],
@@ -22938,73 +22943,73 @@ iesbyattribute={
 },
 # ReferencedTreatmentRecordSequence
 0x30080030L: {
- None: ['Treatment Record'],
  'RT BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT BRACHY TREATMENT RECORD IOD': ['Treatment Record'],
  'RT ION BEAMS TREATMENT RECORD IOD': ['Treatment Record'],
  'RT TREATMENT SUMMARY RECORD IOD': ['Treatment Record'],
+ None: ['Treatment Record'],
 },
 # NonUniformRadialSamplingCorrected
 0x00189766L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CatheterDirectionOfRotation
 0x00520031L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorNormalizationCorrection
 0x00189768L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # KSpaceFiltering
 0x00189064L: {
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
 },
 # AttenuationCorrectionTemporalRelationship
 0x00189770L: {
- None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # NumberOfTemporalPositions
 0x00200105L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PerformedProtocolType
 0x00400261L: {
- None: ['Series'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Series'],
+ None: ['Series'],
 },
 # RangingDepth
 0x00520009L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ExposureTimeInuS
 0x00188150L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # NumberOfCopies
 0x20000010L: {
- None: ['Film Session', 'Media Creation Management'],
  'MEDIA CREATION MANAGEMENT IOD': ['Media Creation Management'],
  'FILM SESSION IOD': ['Film Session'],
+ None: ['Film Session', 'Media Creation Management'],
 },
 # CorrectedLocalizedDeviationFromNormalCalculated
 0x00240078L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # AdmissionID
 0x00380010L: {
@@ -23058,7 +23063,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Unified Procedure Step', 'General Purpose Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -23078,6 +23082,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Unified Procedure Step', 'General Purpose Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -23108,33 +23113,34 @@ iesbyattribute={
 },
 # Trim
 0x20100140L: {
- None: ['Basic Film Box'],
  'BASIC FILM BOX IOD': ['Basic Film Box'],
+ None: ['Basic Film Box'],
 },
 # ImagingFrequency
 0x00180084L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorElementSpacing
 0x00187022L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ConventionalMachineVerificationSequence
 0x00741044L: {
- None: ['Rt Conventional Machine Verification'],
  'RT CONVENTIONAL MACHINE VERIFICATION IOD': ['Rt Conventional Machine Verification'],
+ None: ['Rt Conventional Machine Verification'],
 },
 # TimeDistributionProtocol
 0x00181802L: {
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Frame of Reference'],
+ None: ['Frame of Reference'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Frame of Reference'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Frame of Reference'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Frame of Reference'],
@@ -23156,22 +23162,21 @@ iesbyattribute={
  'PROCEDURE LOG IOD': ['Frame of Reference'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Frame of Reference'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Frame of Reference'],
- None: ['Frame of Reference'],
 },
 # SurfaceModelScalingFactor
 0x00686390L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # ToleranceTableSequence
 0x300A0040L: {
- None: ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # MaximumAlongScanDistortion
 0x00220038L: {
- None: ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # AdmittingDiagnosesDescription
 0x00081080L: {
@@ -23225,7 +23230,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Unified Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -23244,6 +23248,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Unified Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -23272,73 +23277,68 @@ iesbyattribute={
  'VIDEO ENDOSCOPIC IMAGE IOD': ['Study'],
  'ARTERIAL PULSE WAVEFORM IOD': ['Study'],
 },
-# 
-0x00780000L: {
- None: ['Implant Template Group'],
- 'IMPLANT TEMPLATE GROUP IOD': ['Implant Template Group'],
-},
 # ReconstructionMethod
 0x00541103L: {
- None: ['Series'],
  'PET IMAGE IOD': ['Series'],
+ None: ['Series'],
 },
 # IVUSAcquisition
 0x00183100L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
+ 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedFrameNumber
 0x00081160L: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # TableTopRollAngle
 0x300A0144L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # VisualFieldCatchTrialSequence
 0x00240034L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ImagedNucleus
 0x00180085L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ProcedureStepState
 0x00741000L: {
- None: ['Unified Procedure Step'],
  'UNIFIED PROCEDURE STEP IOD': ['Unified Procedure Step'],
+ None: ['Unified Procedure Step'],
 },
 # TemporalPositionIdentifier
 0x00200100L: {
- None: ['Image'],
  'MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PixelSpacing
 0x00280030L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- None: ['Image', 'Dose'],
  'MR IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -23366,21 +23366,22 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # PerformedStationGeographicLocationCodeSequence
 0x00404030L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # LowRRValue
 0x00181081L: {
  'US IMAGE IOD': ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
- 'ENHANCED MR IMAGE IOD': ['Image'],
  'OPHTHALMIC TOMOGRAPHY IMAGE IOD': ['Image'],
+ 'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image', 'Equipment'],
  'X-RAY 3D ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -23389,63 +23390,62 @@ iesbyattribute={
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
- None: ['Image', 'Equipment'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
  'ENHANCED CT IMAGE IOD': ['Image'],
 },
 # TomoTime
 0x00181480L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # EnergyWindowInformationSequence
 0x00540012L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # IVUSPullbackRate
 0x00183101L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
+ 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TypeOfFilters
 0x00181161L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PlanningLandmarkLineSequence
 0x00686510L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # VisualFieldVerticalExtent
 0x00240011L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # XRayImageReceptorAngle
 0x3002000EL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DetectorConditionsNominalFlag
 0x00187000L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # StudyID
@@ -23501,7 +23501,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Study'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Study'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Study'],
- None: ['Study', 'Modality Performed Procedure Step'],
  'SPATIAL FIDUCIALS IOD': ['Study'],
  'RT ION PLAN IOD': ['Study'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Study'],
@@ -23520,6 +23519,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Study'],
  'RT IMAGE IOD': ['Study'],
  'SC IMAGE IOD': ['Study'],
+ None: ['Study', 'Modality Performed Procedure Step'],
  'SEGMENTATION IOD': ['Study'],
  'PET IMAGE IOD': ['Study'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Study'],
@@ -23550,44 +23550,44 @@ iesbyattribute={
 },
 # GantryPitchAngle
 0x300A014AL: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # FovealSensitivityMeasured
 0x00240086L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # DetectorActiveShape
 0x00187024L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # CatheterRotationalRate
 0x00520013L: {
- None: ['Image'],
  'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ReferencedRealWorldValueMappingInstanceSequence
 0x0008114BL: {
  'SPECTACLE PRESCIPTION REPORT IOD': ['Document'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
  'MAMMOGRAPHY CAD SR IOD': ['Document'],
- 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'BASIC TEXT SR IOD': ['Document'],
+ 'X-RAY RADIATION DOSE SR IOD': ['Document'],
  'PROCEDURE LOG IOD': ['Document'],
  'ENHANCED SR IOD': ['Document'],
  'CHEST CAD SR IOD': ['Document'],
  'MACULAR GRID THIICKNESS AND VOLUME REPORT IOD': ['Document'],
+ None: ['Document'],
  'IMPLANTATION PLAN SR DOCUMENT IOD': ['Document'],
  'COMPREHENSIVE SR IOD': ['Document'],
- None: ['Document'],
  'COLON CAD SR IOD': ['Document'],
 },
 # ImageRotation
@@ -23595,64 +23595,65 @@ iesbyattribute={
  'COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'XA/XRF GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'GRAYSCALE SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
+ None: ['Presentation State'],
  'BLENDING SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
  'PSEUDO-COLOR SOFTCOPY PRESENTATION STATE IOD': ['Presentation State'],
- None: ['Presentation State'],
 },
 # RequestedSubsequentWorkitemCodeSequence
 0x00404031L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # ExcludedIntervalsSequence
 0x00189803L: {
- None: ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
+ None: ['Image'],
 },
 # DecoupledNucleus
 0x00189060L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # IVUSGatedRate
 0x00183102L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # CountsAccumulated
 0x00180070L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # StartCumulativeMetersetWeight
 0x300C0008L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # ImageOrientationSlide
 0x00480102L: {
- None: ['Image'],
  'VL WHOLE SLIDE MICROSCOPY IOD': ['Image'],
+ None: ['Image'],
 },
 # SubjectiveRefractionLeftEyeSequence
 0x00460098L: {
- None: ['Equipment'],
  'SUBJECTIVE REFRACTION MEASUREMENTS IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # OphthalmicAxialMeasurementsLeftEyeSequence
 0x00221008L: {
- None: ['Series'],
  'OPHTHALMIC AXIAL MEASUREMENTS IOD': ['Series'],
+ None: ['Series'],
 },
 # StimuliRetesting
 0x00240042L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # ViewCodeSequence
 0x00540220L: {
+ None: ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'PET IMAGE IOD': ['Image'],
@@ -23661,28 +23662,27 @@ iesbyattribute={
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'BREAST TOMOSYNTHESIS IMAGE IOD': ['Image'],
 },
 # FovealSensitivity
 0x00240087L: {
- None: ['Measurements'],
  'OPHTHALMIC VISUAL FIELD STATIC PERIMETRY MEASUREMENTS IOD': ['Measurements'],
+ None: ['Measurements'],
 },
 # RadiationMachineSAD
 0x30020022L: {
- None: ['Image'],
  'RT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # PixelDataProviderURL
 0x00287FE0L: {
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
+ None: ['Image', 'Dose', 'Segmentation'],
  'SEGMENTATION IOD': ['Segmentation'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 16 BIT IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
- 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
  'OPHTHALMIC PHOTOGRAPHY 8 BIT IMAGE IOD': ['Image'],
@@ -23713,7 +23713,7 @@ iesbyattribute={
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'ENHANCED PET IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
- None: ['Image', 'Dose', 'Segmentation'],
+ 'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'X-RAY 3D CRANIOFACIAL IMAGE IOD': ['Image'],
  'VL ENDOSCOPIC IMAGE IOD': ['Image'],
@@ -23723,56 +23723,56 @@ iesbyattribute={
 # ExposureTime
 0x00181150L: {
  'CT IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'CR IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # CassetteID
 0x00181007L: {
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
 },
 # NonDICOMOutputCodeSequence
 0x00404032L: {
- None: ['General Purpose Performed Procedure Step'],
  'GENERAL PURPOSE PERFORMED PROCEDURE STEP IOD': ['General Purpose Performed Procedure Step'],
+ None: ['General Purpose Performed Procedure Step'],
 },
 # DetectorVector
 0x00540020L: {
- None: ['Image'],
  'NM IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # TreatmentProtocols
 0x300A0009L: {
- None: ['Plan'],
  'RT ION PLAN IOD': ['Plan'],
  'RT PLAN IOD': ['Plan'],
+ None: ['Plan'],
 },
 # DecouplingFrequency
 0x00189061L: {
- None: ['Equipment'],
  'MR SPECTROSCOPY IOD': ['Equipment'],
+ None: ['Equipment'],
 },
 # IVUSPullbackStartFrameNumber
 0x00183103L: {
- None: ['Image'],
  'US MULTI-FRAME IMAGE IOD': ['Image'],
+ 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'US IMAGE IOD': ['Image'],
- 'INTRAVASCULAR OCT IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # SurfaceModelDescriptionSequence
 0x00686360L: {
- None: ['Implant Template'],
  'GENERIC IMPLANT TEMPLATE IOD': ['Implant Template'],
+ None: ['Implant Template'],
 },
 # CodingSchemeIdentificationSequence
 0x00080110L: {
@@ -23833,7 +23833,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -23860,6 +23859,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -23895,13 +23895,13 @@ iesbyattribute={
 },
 # TimeOfLastDetectorCalibration
 0x0018700EL: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # DocumentClassCodeSequence
@@ -23909,19 +23909,19 @@ iesbyattribute={
  'SC IMAGE IOD': ['Image'],
  'MULTI-FRAME TRUE COLOR SC IMAGE IOD': ['Image'],
  'ENCAPSULATED PDF IOD': ['Encapsulated Document'],
- 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  None: ['Image', 'Encapsulated Document'],
+ 'MULTI-FRAME GRAYSCALE BYTE SC IMAGE IOD': ['Image'],
  'MULTI-FRAME GRAYSCALE WORD SC IMAGE IOD': ['Image'],
  'MULTI-FRAME SINGLE BIT SC IMAGE IOD': ['Image'],
  'ENCAPSULATED CDA IOD': ['Encapsulated Document'],
 },
 # AveragePulseWidth
 0x00181154L: {
- None: ['Image'],
  'XRF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 # DigitalSignaturesSequence
 0xFFFAFFFAL: {
@@ -23982,7 +23982,6 @@ iesbyattribute={
  'COMPREHENSIVE SR IOD': ['Document'],
  'ENHANCED ULTRASOUND VOLUME IOD': ['Image'],
  'KEY OBJECT SELECTION DOCUMENT IOD': ['Document'],
- None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'SPATIAL FIDUCIALS IOD': ['Spatial Fiducials'],
  'RT ION PLAN IOD': ['Plan'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
@@ -24009,6 +24008,7 @@ iesbyattribute={
  'VIDEO PHOTOGRAPHIC IMAGE IOD': ['Image'],
  'RT IMAGE IOD': ['Image'],
  'SC IMAGE IOD': ['Image'],
+ None: ['Hanging Protocol', 'Presentation State', 'Image', 'Treatment Record', 'Rt Ion Machine Verification', 'Structure Set', 'Plan', 'Film Session', 'Basic Film Box', 'Raw Data', 'Unified Procedure Step', 'Waveform', 'Modality Performed Procedure Step', 'Color Palette', 'Document', 'Equipment', 'Encapsulated Document', 'Spatial Registration', 'Spatial Fiducials', 'Instance Availability Notification', 'Print Job', 'Rt Conventional Machine Verification', 'Measurements', 'Dose', 'Basic Annotation Box', 'General Purpose Performed Procedure Step', 'Printer', 'Printer Configuration', 'Surface', 'Deformable Registration', 'Implant Assembly', 'Implant Template', 'Segmentation', 'Real World Value Mapping', 'Basic Image Box', 'Stereometric Relationship', 'General Purpose Scheduled Procedure Step', 'Media Creation Management', 'Storage Commitment'],
  'PROCEDURE LOG IOD': ['Document'],
  'SEGMENTATION IOD': ['Segmentation'],
  'PET IMAGE IOD': ['Image'],
@@ -24044,19 +24044,19 @@ iesbyattribute={
 },
 # DetectorActiveDimensions
 0x00187026L: {
- 'XRF IMAGE IOD': ['Image'],
+ None: ['Image'],
  'DIGITAL INTRA-ORAL X-RAY IMAGE IOD': ['Image'],
  'DIGITAL MAMMOGRAPHY X-RAY IMAGE IOD': ['Image'],
  'ENHANCED X-RAY RF IMAGE IOD': ['Image'],
  'ENHANCED X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
  'DIGITAL X-RAY IMAGE IOD': ['Image'],
- None: ['Image'],
+ 'XRF IMAGE IOD': ['Image'],
  'X-RAY ANGIOGRAPHIC IMAGE IOD': ['Image'],
 },
 # ArterialSpinLabelingContrast
 0x00189250L: {
- None: ['Image'],
  'ENHANCED MR COLOR IMAGE IOD': ['Image'],
  'ENHANCED MR IMAGE IOD': ['Image'],
+ None: ['Image'],
 },
 }

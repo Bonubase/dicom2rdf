@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
 import sys
-import dicom
+sys.path.append('..')
 from parse import *
+from datadict import *
 
 macro_corrections={
 'OPHTHALMIC VISUAL FIELD GLOBAL INDEX MACRO C8263-2':'OPHTHALMIC VISUAL FIELD GLOBAL INDEX MACRO',
@@ -41,15 +42,8 @@ def gettags(lines,nesting=0):
                     lines.insert(0,line)
                     return tags
 
-                if tag in dicom._dicom_dict.DicomDictionary:
-                    vr=dicom._dicom_dict.DicomDictionary[tag][0]
-                elif tag & 0xffff in dicom._dicom_dict.DicomDictionary:
-                    vr=dicom._dicom_dict.DicomDictionary[tag & 0xffff][0]
-                else:
-                    print >> sys.stderr,"tag not found in dicom._dicom_dict.DicomDictionary",hex(tag)
-                    vr='UNKNOWN'
-                    if tag in (0x221127L,0x221128L,0x221134L,0x221012L):
-                        vr='SQ'
+                assert tag in datadict,hex(tag)
+                vr=datadict[tag][0]
 
                 #print hex(tag),vr
 

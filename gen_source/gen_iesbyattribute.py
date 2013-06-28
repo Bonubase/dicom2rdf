@@ -2,9 +2,10 @@
 
 import sys
 sys.path.append('..')
-from parse import hextag,tagkw
+from parse import hextag
 from expandmacro import expand
 
+from datadict import *
 from modulemacros import *
 from iods import *
 
@@ -35,7 +36,7 @@ print "# regardless of IOD context"
 print "iesbyattribute={"
 
 for tag,iedict in iesbyattribute.items():
-    print '# '+tagkw(tag)
+    print '# '+keyword_for_tag(tag)
     print hextag(tag)+': {'
     
     for key,value in iedict.items():

@@ -1,5 +1,6 @@
+import sys
 import dicom,rdflib,urllib
-import settings
+import settings,datadict
 
 # get class URI for IE name
 def getieclass(ie):
@@ -54,11 +55,13 @@ def urifromtag(tag,isclass=False,numeric=False,gettagvalue=None):
         keyword='Tag.'+keyword[:4]+'.'+keyword[4:]
 
         if not numeric:
-            keyword1=dicom.datadict.keyword_for_tag(tag)
+            keyword1=datadict.keyword_for_tag(tag)
             if keyword1:
                 for c in keyword1:
                     assert c.isalnum(),keyword1
                 keyword=keyword1
+            else:
+                print >> sys.stderr, "Keyword for tag",str(tag),"not found"
 
     uri=settings.ontons
     if isclass:
@@ -74,4 +77,6 @@ def newgraph():
     graph.bind('owl',rdflib.namespace.OWL)
     graph.bind('dicom',rdflib.namespace.Namespace(settings.ontons))
     graph.bind('dcterms',rdflib.namespace.Namespace('http://purl.org/dc/terms/'))
+    graph.bind('foaf',rdflib.namespace.Namespace('http://xmlns.com/foaf/0.1/'))
+    graph.bind('co',rdflib.namespace.Namespace('http://purl.org/co/'))
     return graph

@@ -96,9 +96,9 @@ sequencesbyattribute={
 0x0078002EL:  [0x0078002AL],
 # AlgorithmFamilyCodeSequence
 0x0066002FL:  [0x00240083L, 0x00240085L, 0x00240344L, 0x00660035L, 0x0066002DL, 0x00240065L, 0x00240067L],
-# 
+# RepositoryUniqueID
 0x0040E030L:  [0x0040E024L],
-# 
+# HomeCommunityID
 0x0040E031L:  [0x0040E024L],
 # AlgorithmParameters
 0x00660032L:  [0x00240083L, 0x00240085L, 0x00240344L, 0x00660035L, 0x0066002DL, 0x00240065L, 0x00240067L],
@@ -340,7 +340,7 @@ sequencesbyattribute={
 0x300A00C4L:  [0x300A03A2L, 0x300A00B0L, 0x30080020L, 0x30080021L],
 # FrameOfReferenceTransformationMatrix
 0x300600C6L:  [0x0070030AL, 0x0064000FL, 0x00640010L, 0x300600C0L],
-# 
+# DICOMRetrievalSequence
 0x0040E021L:  [0x00404021L, 0x00404033L],
 # FrameOfReferenceTransformationComment
 0x300600C8L:  [0x00700309L, 0x00640002L, 0x300600C0L],
@@ -922,8 +922,6 @@ sequencesbyattribute={
 0x300A0199L:  [0x300A0190L],
 # ChannelNumber
 0x300A0282L:  [0x300A0280L, 0x30080130L],
-# ScreeningBaselineValue
-0x00240126L:  [0x00240122L],
 # PatternOnOpacity
 0x00700284L:  [0x00700233L, 0x00700232L],
 # PatternOffOpacity
@@ -1414,8 +1412,8 @@ sequencesbyattribute={
 0x00404019L:  [0x00081111L, 0x00741216L],
 # CalculatedDoseReferenceNumber
 0x30080072L:  [0x30080070L],
-# WaveformBitsAllocated
-0x54001004L:  [0x54000100L],
+# TableTopVerticalAdjustedPosition
+0x00741026L:  [0x00741020L],
 # BlendingOperationType
 0x00720500L:  [0x00720200L],
 # ContentTemplateSequence
@@ -1434,6 +1432,8 @@ sequencesbyattribute={
 0x00720516L:  [0x00720200L],
 # ContainerTypeCodeSequence
 0x00400518L:  [0x00400500L],
+# TableTopLongitudinalAdjustedPosition
+0x00741027L:  [0x00741020L],
 # ContainerDescription
 0x0040051AL:  [0x00400500L],
 # ContainerComponentSequence
@@ -1452,6 +1452,8 @@ sequencesbyattribute={
 0x00686530L:  [0x00686500L, 0x00686510L, 0x00686520L],
 # ContrastBolusIngredientPercentByVolume
 0x00520001L:  [0x00180012L],
+# TableTopLateralAdjustedPosition
+0x00741028L:  [0x00741020L],
 # PlanningLandmarkDescription
 0x00686540L:  [0x00686500L, 0x00686510L, 0x00686520L],
 # ReferencedBlockNumber
@@ -1660,14 +1662,14 @@ sequencesbyattribute={
 0x00741036L:  [0x00741030L],
 # DeviceDescription
 0x00500020L:  [0x00500010L],
-# 
-0x00740126L:  [0x00741020L],
+# ScreeningBaselineValue
+0x00240126L:  [0x00240122L],
 # RelationshipType
 0x0040A010L:  [0x0040A730L],
-# 
-0x00740127L:  [0x00741020L],
-# 
-0x00740128L:  [0x00741020L],
+# LensThicknessSequence
+0x00221127L:  [0x00221300L, 0x00221310L],
+# AnteriorChamberDepthSequence
+0x00221128L:  [0x00221300L, 0x00221310L],
 # VerticalPrismBase
 0x00460036L:  [0x00460028L],
 # DisplaySetPatientOrientation
@@ -1798,8 +1800,6 @@ sequencesbyattribute={
 0x30080045L:  [0x30080041L, 0x0074104EL],
 # ContrastBolusVolume
 0x00181041L:  [0x00180012L, 0x00189340L],
-# 
-0x00221127L:  [0x00221300L, 0x00221310L],
 # PhysicalDeltaX
 0x0018602CL:  [0x00186011L],
 # NumberOfWaveformChannels
@@ -1916,6 +1916,8 @@ sequencesbyattribute={
 0x20100040L:  [0x200000A8L],
 # DisplayedAreaBottomRightHandCorner
 0x00700053L:  [0x0070005AL],
+# WaveformBitsAllocated
+0x54001004L:  [0x54000100L],
 # DeviceUID
 0x00181002L:  [0x0040A078L, 0x0040A07AL],
 # SpecimenShortDescription
@@ -1982,7 +1984,7 @@ sequencesbyattribute={
 0x00189035L:  [0x00189006L],
 # DimensionDescriptionLabel
 0x00209421L:  [0x00209222L],
-# 
+# TypeOfInstances
 0x0040E020L:  [0x00404021L, 0x00404033L],
 # ActualRespiratoryTriggerDelayTime
 0x00209257L:  [0x00209253L],
@@ -1994,7 +1996,7 @@ sequencesbyattribute={
 0x00620004L:  [0x00620002L],
 # PixelComponentOrganization
 0x00186044L:  [0x00186011L],
-# 
+# DICOMMediaRetrievalSequence
 0x0040E022L:  [0x00404021L, 0x00404033L],
 # GridAbsorbingMaterial
 0x00187040L:  [0x00189507L],
@@ -2002,13 +2004,13 @@ sequencesbyattribute={
 0x300A0308L:  [0x300A03A2L, 0x30080021L, 0x00741046L],
 # BlockNumberOfPoints
 0x300A0104L:  [0x300A03A6L, 0x300A00F4L],
-# 
+# WADORetrievalSequence
 0x0040E023L:  [0x00404021L, 0x00404033L],
 # PrinterResolutionID
 0x20100052L:  [0x200000A8L],
 # PixelComponentMask
 0x00186046L:  [0x00186011L],
-# 
+# XDSRetrievalSequence
 0x0040E024L:  [0x00404021L, 0x00404033L],
 # KVP
 0x00180060L:  [0x00189507L, 0x00189538L, 0x300A03A8L, 0x00189325L, 0x0040030EL, 0x00189360L, 0x30080041L, 0x30020030L, 0x00189417L],
@@ -2550,7 +2552,7 @@ sequencesbyattribute={
 0x00189095L:  [0x00189103L],
 # RealWorldValueMappingSequence
 0x00409096L:  [0x00409094L],
-# 
+# ImplantPartNumber
 0x00221097L:  [0x00221090L],
 # PixelValueMappingCodeSequence
 0x00409098L:  [0x00186011L],
@@ -2618,7 +2620,7 @@ sequencesbyattribute={
 0x00221132L:  [0x00221127L],
 # SoftcopyVOILUTSequence
 0x00283110L:  [0x00700402L],
-# 
+# SourceofRefractiveMeasurementsSequence
 0x00221134L:  [0x0022001BL],
 # DVHDoseScaling
 0x30040052L:  [0x30040050L],
@@ -2896,7 +2898,7 @@ sequencesbyattribute={
 0x00221028L:  [0x00221300L, 0x00221310L],
 # ContourImageSequence
 0x30060016L:  [0x30060040L, 0x30060014L],
-# 
+# OphthalmicAxialLengthSequence
 0x00221012L:  [0x00221300L, 0x00221310L],
 # LightPathFilterTypeStackCodeSequence
 0x00220017L:  [0x00480105L],
@@ -2996,8 +2998,6 @@ sequencesbyattribute={
 0x00189337L:  [0x00180012L, 0x00189341L],
 # ContrastBolusIngredientCodeSequence
 0x00189338L:  [0x00180012L],
-# 
-0x00221128L:  [0x00221300L, 0x00221310L],
 # ContrastAdministrationProfileSequence
 0x00189340L:  [0x00180012L],
 # ContrastBolusAgentAdministered
@@ -3610,7 +3610,7 @@ sequencesbyattribute={
 0x00400316L:  [0x00189538L],
 # SelectorSequencePointer
 0x00720052L:  [0x00741048L, 0x0074104AL, 0x00720022L, 0x00720400L, 0x00720600L],
-# 
+# ImplantName
 0x00221095L:  [0x00221300L, 0x00221310L],
 # RecordedRangeModulatorSequence
 0x300800F6L:  [0x30080021L, 0x00741046L],

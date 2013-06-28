@@ -1,6 +1,5 @@
 
 import sys
-import dicom
 
 def hextag(tag):
     assert type(tag)==long
@@ -11,11 +10,6 @@ def hextag(tag):
     while len(keyword)<8:
         keyword='0'+keyword
     return '0x'+keyword+'L'
-
-def tagkw(tag):
-    tag=dicom.tag.Tag(long(tag))
-    kw=dicom.datadict.keyword_for_tag(tag)
-    return kw
 
 def gettag(s):
     if not s.startswith('('):

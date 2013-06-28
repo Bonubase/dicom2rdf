@@ -2,9 +2,10 @@
 
 import sys
 sys.path.append('..')
-from parse import hextag,tagkw
+from parse import hextag
 from expandmacro import expand
 
+from datadict import *
 from modulemacros import *
 
 # check for infinite recursions
@@ -51,7 +52,7 @@ for tag,sqlist in sequencesbyattribute.items():
         reprlist+=item+', '
     reprlist=reprlist[:-2]+']'
 
-    print '# '+tagkw(tag)
+    print '# '+keyword_for_tag(tag)
     print hextag(tag)+': ',reprlist+','
 
 print "}"

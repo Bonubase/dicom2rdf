@@ -4,6 +4,7 @@ import sys,random,time,datetime
 import dicom,rdflib
 import uritools,settings
 
+from datadict import *
 from sopclasses import *
 from iods import *
 from iesbyattribute import *
@@ -15,6 +16,7 @@ from rdflib.namespace import RDF
 from rdflib.namespace import RDFS
 DCTERMS=rdflib.namespace.Namespace('http://purl.org/dc/terms/')
 FOAF=rdflib.namespace.Namespace('http://xmlns.com/foaf/0.1/')
+CO=rdflib.namespace.Namespace('http://purl.org/co/')
 
 # global variables for generating unique URIs
 starttime=time.time()
@@ -195,6 +197,8 @@ def tripleobject(vr,value):
         # UL requires xsd:long!
         assert type(value) in (int,long),type(value)
         return rdflib.Literal(long(value))
+    elif vr=='AT':
+        return rdflib.Literal(long(value))
     elif vr=='DA':
         value=str(value)
         if not value:
@@ -298,7 +302,7 @@ def describedataelement(de):
     desc='type:'+str(type(de.value))
     desc+=' VM:'+str(de.VM)
     desc+=' VR:'+de.VR
-    desc+=' tag:'+dicom.datadict.keyword_for_tag(de.tag)
+    desc+=' tag:'+keyword_for_tag(de.tag)
     desc+=' value:'+str(de.value)
     return desc
 
@@ -338,8 +342,8 @@ def addtriples(graph,subject,ieuris,iod,de,ds):
     predicate=uritools.urifromtag(de.tag,gettagvalue=gettagvalue)
     currentsubject=subject
 
-    if de.tag in dicom._dicom_dict.DicomDictionary:
-        tagvm=dicom._dicom_dict.DicomDictionary[de.tag][1]
+    if long(de.tag) in datadict:
+        tagvm=datadict[long(de.tag)][1]
     else:
         tagvm='1'
 
@@ -361,40 +365,55 @@ def addtriples(graph,subject,ieuris,iod,de,ds):
                 ieuris[ie]=currentsubject
 
     if type(de.value)==dicom.sequence.Sequence:
-        rdflist,dummy=generateuri()
-        restlist=None
-        graph.add((currentsubject,predicate,rdflist))
+        colist,dummy=generateuri()
+        lastitem=None
         for de1 in de:
-            if restlist:
-                graph.add((rdflist,RDF.rest,restlist))
-                rdflist=restlist
-            restlist,dummy=generateuri()
+            listitem,dummy=generateuri()
+            if lastitem:
+                graph.add((lastitem,CO.nextItem,listitem))
+            else:
+                graph.add((colist,CO.firstItem,listitem))
+            lastitem=listitem
             object,ieuris1,iod1=datasetcontext(graph,de1)
-            graph.add((rdflist,RDF.first,object))
-            graph.add((rdflist,RDFS.label,rdflib.Literal('RDF List')))
+            graph.add((colist,CO.item,listitem))
+            graph.add((listitem,CO.itemContent,object))
+            graph.add((listitem,RDF.type,CO.ListItem))
+            graph.add((listitem,RDFS.label,rdflib.Literal('List item')))
             cl=uritools.urifromtag(de.tag,isclass=True,gettagvalue=gettagvalue)
             graph.add((object,RDF.type,cl))
             for de2 in de1:
                 addtriples(graph,object,ieuris1,iod1,de2,de1)
-        graph.add((rdflist,RDF.rest,RDF.nil))
+        if lastitem:
+            graph.add((currentsubject,predicate,colist))
+            graph.add((colist,RDF.type,CO.List))
+            graph.add((colist,RDFS.label,rdflib.Literal('List')))
+            graph.add((colist,CO.lastItem,listitem))
 
     elif type(de.value) in (dicom.multival.MultiValue,list) or tagvm!='1':
         vr=de.VR
         if type(de.value) not in (dicom.multival.MultiValue,list):
             de=[de.value]
-        rdflist,dummy=generateuri()
-        restlist=None
-        graph.add((currentsubject,predicate,rdflist))
+        colist,dummy=generateuri()
+        lastitem=None
         for de1 in de:
             object=tripleobject(vr,de1)
-            if object is not None:
-                if restlist:
-                    graph.add((rdflist,RDF.rest,restlist))
-                    rdflist=restlist
-                restlist,dummy=generateuri()
-                graph.add((rdflist,RDF.first,object))
-                graph.add((rdflist,RDFS.label,rdflib.Literal('RDF List')))
-        graph.add((rdflist,RDF.rest,RDF.nil))
+            if object is None:
+                continue
+            listitem,dummy=generateuri()
+            if lastitem:
+                graph.add((lastitem,CO.nextItem,listitem))
+            else:
+                graph.add((colist,CO.firstItem,listitem))
+            lastitem=listitem
+            graph.add((colist,CO.item,listitem))
+            graph.add((listitem,CO.itemContent,object))
+            graph.add((listitem,RDF.type,CO.ListItem))
+            graph.add((listitem,RDFS.label,rdflib.Literal('List item')))
+        if lastitem:
+            graph.add((currentsubject,predicate,colist))
+            graph.add((colist,RDF.type,CO.List))
+            graph.add((colist,RDFS.label,rdflib.Literal('List')))
+            graph.add((colist,CO.lastItem,listitem))
 
     else:
         assert de.VM==1,describedataelement(de)
@@ -405,7 +424,8 @@ def addtriples(graph,subject,ieuris,iod,de,ds):
 
 # usage message
 if len(sys.argv)==1:
-    msg="""usage: dicom2rdf.py file1.dcm file2.dcm file3.dcm ...
+    msg="""dicom2rdf version 1.1
+usage: dicom2rdf.py file1.dcm file2.dcm file3.dcm ...
 will generate file1.rdf file2.rdf file3.rdf ...
 """
     sys.stderr.write(msg)
