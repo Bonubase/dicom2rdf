@@ -4,6 +4,9 @@ import rdflib
 # namespace for the ontology
 ontons='http://purl.org/healthcarevocab/v1#'
 
+# ontology prefix
+ontoprefix='dicom'
+
 # ontology document
 ontodoc=rdflib.URIRef('http://purl.org/healthcarevocab/v1')
 

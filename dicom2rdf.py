@@ -9,14 +9,7 @@ from sopclasses import *
 from iods import *
 from iesbyattribute import *
 from sequencesbyattribute import *
-
-# namespaces
-from rdflib.namespace import XSD
-from rdflib.namespace import RDF
-from rdflib.namespace import RDFS
-DCTERMS=rdflib.namespace.Namespace('http://purl.org/dc/terms/')
-FOAF=rdflib.namespace.Namespace('http://xmlns.com/foaf/0.1/')
-CO=rdflib.namespace.Namespace('http://purl.org/co/')
+from namespaces import *
 
 # global variables for generating unique URIs
 starttime=time.time()
@@ -424,7 +417,7 @@ def addtriples(graph,subject,ieuris,iod,de,ds):
 
 # usage message
 if len(sys.argv)==1:
-    msg="""dicom2rdf version 1.1
+    msg="""dicom2rdf version 1.2
 usage: dicom2rdf.py file1.dcm file2.dcm file3.dcm ...
 will generate file1.rdf file2.rdf file3.rdf ...
 """

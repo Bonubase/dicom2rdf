@@ -5,12 +5,7 @@ import dicom,rdflib
 sys.path.append('..')
 import uritools
 from sopclasses import *
-
-# namespaces
-from rdflib.namespace import XSD
-from rdflib.namespace import RDF
-from rdflib.namespace import RDFS
-from rdflib.namespace import OWL
+from namespaces import *
 
 graph=uritools.newgraph()
 

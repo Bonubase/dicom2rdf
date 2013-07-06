@@ -1,4 +1,9 @@
 
+v1.2
+
+-added ontology annotations in gen_ontology
+-added namespaces.py for central definition of namespaces
+
 v1.1
 
 -added CHANGES file

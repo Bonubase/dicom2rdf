@@ -75,7 +75,7 @@ def newgraph():
     graph.bind('rdf',rdflib.namespace.RDF)
     graph.bind('rdfs',rdflib.namespace.RDFS)
     graph.bind('owl',rdflib.namespace.OWL)
-    graph.bind('dicom',rdflib.namespace.Namespace(settings.ontons))
+    graph.bind(settings.ontoprefix,rdflib.namespace.Namespace(settings.ontons))
     graph.bind('dcterms',rdflib.namespace.Namespace('http://purl.org/dc/terms/'))
     graph.bind('foaf',rdflib.namespace.Namespace('http://xmlns.com/foaf/0.1/'))
     graph.bind('co',rdflib.namespace.Namespace('http://purl.org/co/'))

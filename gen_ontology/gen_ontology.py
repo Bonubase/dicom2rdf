@@ -9,13 +9,7 @@ from valid_ies import *
 from iesbyattribute import *
 from sequencesbyattribute import *
 from sopclasses import *
-
-# namespaces
-from rdflib.namespace import XSD
-from rdflib.namespace import RDF
-from rdflib.namespace import RDFS
-from rdflib.namespace import OWL
-CO=rdflib.namespace.Namespace('http://purl.org/co/')
+from namespaces import *
 
 # splits RDF/XML into header (<?xml?><rdf:RDF>), body and footer (</rdf:RDF>)
 # needed because we cannot influence the order of serialization in rdflib
@@ -151,9 +145,18 @@ assert 'rdf:nodeID' not in graph
 
 # basic information that needs to be on top
 graph1=uritools.newgraph()
+graph1.bind('vann',VANN)
+
 graph1.add((settings.ontodoc,RDF.type,OWL.Ontology))
+graph1.add((settings.ontodoc,VANN.preferredNamespacePrefix,rdflib.Literal(settings.ontoprefix)))
+graph1.add((settings.ontodoc,VANN.preferredNamespaceUri,rdflib.Literal(settings.ontons)))
+graph1.add((settings.ontodoc,DCTERMS.issued,rdflib.Literal(datetime.date(2013,4,29))))
+today=rdflib.Literal(datetime.datetime.date(datetime.datetime.now()))
+graph1.add((settings.ontodoc,DCTERMS.modified,today))
+
 label='Healthcare metadata / DICOM ontology'
 graph1.add((settings.ontodoc,RDFS.label,rdflib.Literal(label)))
+graph1.add((settings.ontodoc,DCTERMS.title,rdflib.Literal(label)))
 comment="""
 Ontology for healthcare metadata - especially metadata found in DICOM files 
 (Digital Imaging and Communications in Medicine, see http://dicom.nema.org/).
@@ -164,12 +167,20 @@ The author's email address is brunni@netestate.de.
 See http://purl.org/healthcarevocab/v1help for explanations.
 """
 graph1.add((settings.ontodoc,RDFS.comment,rdflib.Literal(comment)))
+graph1.add((settings.ontodoc,DCTERMS.description,rdflib.Literal(comment)))
+
+graph1.add((VANN.preferredNamespacePrefix,RDF.type,OWL.AnnotationProperty))
+graph1.add((VANN.preferredNamespaceUri,RDF.type,OWL.AnnotationProperty))
+graph1.add((DCTERMS.issued,RDF.type,OWL.AnnotationProperty))
+graph1.add((DCTERMS.modified,RDF.type,OWL.AnnotationProperty))
+graph1.add((DCTERMS.title,RDF.type,OWL.AnnotationProperty))
+graph1.add((DCTERMS.description,RDF.type,OWL.AnnotationProperty))
 
 graph1=graph1.serialize(format="pretty-xml")
 
 # combine both graph serializations with graph1 on top
 gh,gb,gf=rdfxmlsplit(graph)
 g1h,g1b,g1f=rdfxmlsplit(graph1)
-assert len(gh.split('\n'))==len(g1h.split('\n')),gh+g1h
+assert len(gh.split('\n'))==len(g1h.split('\n'))-2,gh+g1h
 assert gf==g1f
 print g1h+g1b+gb+gf
